@@ -1,0 +1,11 @@
+# Personal Claude Code settings
+.claude/settings.local.json
+
+# macOS system files
+.DS_Store
+._*
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini

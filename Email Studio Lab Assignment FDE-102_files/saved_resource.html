@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<!-- saved from url=(0133)https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- frame-runtime --><script>window.__FRAME_PREAMBLE={"v":1,"capabilities":{"artifact":"artifact.BBvTDtAn.js","assets":"assets.DOAjpBS9.js","comments":"comments.ZN89XxKU.js","db":"db.zFlAA4qL.js","desktop":"desktop.rKfvef3H.js","dictation":"dictation.f3j7VXQ8.js","downloads":"downloads.axDW2QAi.js","embed":"embed.SWCZLzn6.js","endpoints":"endpoints.BPfoKaE1.js","files":"files.IkpCjcgM.js","mcp":"mcp.kl0G36TA.js","network":"network.B5UA9Su4.js","paste":"paste.DeKNLIxx.js","permissions":"permissions.6yWoDecA.js","reads":"reads.Bgov9hIw.js","room":"room.BYRHiLCc.js","sample":"sample.ydkZ82FT.js","self":"artifact.BBvTDtAn.js","tts":"tts.iS74i_mi.js","user":"user.uKicftX-.js"},"transforms":"_transforms.BOM8DIey.js","comments":"_comments.DgZLvPWM.js","translate":"_translate.DqxC5ek1.js","ldx":"_ldx.B4FSryPi.js"}                                                                                                                                                                                                                                                                                                                                </script><script>(function(){"use strict";function dr(t){return t==="cookie"||t==="query"?t:void 0}function hr(t){return typeof t=="number"&&Number.isSafeInteger(t)&&t>0?t:void 0}var no=3e5;function pr(t,e){try{const r=t("navigation")[0],n=[r.responseStart,r.redirectEnd-r.redirectStart,r.domContentLoadedEventStart,e(),r.connectEnd-r.domainLookupStart,r.responseStart-r.requestStart];r.requestStart>0||(n.length=4);for(let a=0;a<n.length;a++)if(n[a]>=0&&n[a]<=3e5)n[a]=n[a]|0;else{if(a<4)return;n.length=4}return n}catch{return}}var mr=["light","dark","system"],vr=/^[A-Za-z0-9_-]{1,64}$/,Mt=/^[a-zA-Z_:][a-zA-Z0-9_:.-]{0,127}$/,_r=new Set(["class","hidden","value","checked","style","title","alt","placeholder","lang","dir","role","tabindex","disabled","readonly","contenteditable","open","colspan","rowspan"]);function yr(t){const e=t.toLowerCase();return e.startsWith("data-")||e.startsWith("aria-")||_r.has(e)}var Pt="data-ldx-props";function gr(t,e){if(e.toLowerCase()===Pt)return!0;const r=t.getAttribute(Pt);if(r===null)return!1;try{const n=JSON.parse(r);if(n===null||typeof n!="object"||Array.isArray(n))return!0;const a=e.toLowerCase();return Object.keys(n).some(s=>s.toLowerCase()===a)}catch{return!0}}var oo="http://www.w3.org/1999/xhtml",wr="http://www.w3.org/2000/svg",br=new Set(["script","style","iframe","noscript","noframes","noembed","xmp","plaintext","template","title","textarea","object","embed"]),Er=new Set(["script","style"]);function Sr(t){const e=t.localName.toLowerCase();return t.namespaceURI==="http://www.w3.org/1999/xhtml"?!br.has(e):t.namespaceURI===wr?!Er.has(e):!1}function ot(t,e){return t===e||(t===160||t===32)&&(e===160||e===32)}function kr(t,e){const r=t.length,n=e.length;let a=0;for(;a<r&&a<n&&ot(t.charCodeAt(a),e.charCodeAt(a));)a++;let s=0;for(;s<r-a&&s<n-a&&ot(t.charCodeAt(r-1-s),e.charCodeAt(n-1-s));)s++;return{p:a,s}}function Ar(t,e){const r=t.firstChild;if(t.childNodes.length!==1||r===null||r.nodeType!==Node.TEXT_NODE){t.textContent=e;return}const n=r.data,a=n.length,s=e.length,{p:l,s:u}=kr(n,e);l===a&&u===0&&a===s||r.replaceData(l,a-l-u,e.slice(l,s-u));const R=r.data,b=t.ownerDocument.getSelection?.()??null,g=b!==null&&b.rangeCount>0&&(b.anchorNode===r||b.focusNode===r)?{anchor:b.anchorNode,anchorOffset:b.anchorOffset,focus:b.focusNode,focusOffset:b.focusOffset}:null;let p=-1,k=-1;for(let m=0;m<R.length&&m<e.length;m++){const j=R.charCodeAt(m),A=e.charCodeAt(m);j!==A&&ot(j,A)&&(p<0&&(p=m),k=m)}const L=p>=0;if(L&&r.replaceData(p,k-p+1,e.slice(p,k+1)),L&&g!==null&&g.anchor!==null&&g.focus!==null)try{b.setBaseAndExtent(g.anchor,g.anchorOffset,g.focus,g.focusOffset)}catch{}}var Rr=new Set(["html","head","body","frameset"]);function Tr(t){return t.namespaceURI==="http://www.w3.org/1999/xhtml"&&Rr.has(t.localName)}function Lr(t){if(t===null||typeof t!="object")return!1;const e=t;if(typeof e.target!="string"||!vr.test(e.target)||e.text!==void 0&&typeof e.text!="string")return!1;if(e.attrsSet!==void 0){if(e.attrsSet===null||typeof e.attrsSet!="object")return!1;for(const[r,n]of Object.entries(e.attrsSet))if(!Mt.test(r)||typeof n!="string")return!1}if(e.attrsRemoved!==void 0){if(!Array.isArray(e.attrsRemoved))return!1;for(const r of e.attrsRemoved)if(typeof r!="string"||!Mt.test(r))return!1}return!0}function Or(t,e){if(t===null||typeof t!="object")return!1;const{seq:r,elements:n}=t;if(typeof r!="number"||!Number.isSafeInteger(r)||!Array.isArray(n)||n.length===0||n.length>64)return!1;for(let a=0;a<n.length;a++)if(!e(n[a]))return!1;return!0}function Mr(t){return t===null||typeof t!="object"?!1:Or(t.__frame_patch,Lr)}function Pr(t){if(t===null||typeof t!="object")return!1;const e=t.__frame_init;return e!==null&&typeof e=="object"}function Nr(t){return t!==null&&typeof t=="object"&&t.__frame_size_poke===!0}function Cr(t){if(t===null||typeof t!="object")return!1;const e=t.__frame_host_visible;return e!==null&&typeof e=="object"&&typeof e.visible=="boolean"}function Fr(t){if(t===null||typeof t!="object")return!1;const e=t.__frame_theme;if(e===null||typeof e!="object")return!1;const r=e.theme;return typeof r=="string"&&mr.includes(r)}var Ir=["ok","empty","snapshot_error","snapshot_timeout","unclonable","oversize","unavailable","restore_error","withheld"],jr=["TypeError","RangeError","ReferenceError","SyntaxError","DataCloneError","QuotaExceededError","AbortError","TimeoutError","SecurityError","Error","other"];function xr(t){return typeof t=="string"&&jr.includes(t)?t:"other"}var Dr=Object.freeze({until:null,now:!1}),Hr="__claude_hot",Br="__claude_hot_in",qr=/^__claude_hot(?:_in)?(?::|$)/,Nt=/^[0-9a-z]{1,32}$/,at=t=>t===void 0?Hr:"__claude_hot:"+t,Oe=t=>t===void 0?Br:"__claude_hot_in:"+t;function Ur(t,e){const r=[];for(let n=0;n<t.length;n++){const a=t.key(n);a!==null&&a!==e&&qr.test(a)&&r.push(a)}for(const n of r)t.removeItem(n)}function $r(t){let e=null;try{e=q(JSON.parse(t)?.hot)}catch{return null}return e===null||typeof e.k!="string"||!Nt.test(e.k)?null:he(e.g)?{k:e.k,g:e.g}:{k:e.k}}var ao=262144,Kr=3e3,zr=5e3,Ct=/^[a-z0-9._:-]{1,64}$/,Gr=["none","hot-restart","hard-reload"],Wr=["asset","doc","added","removed"],Vr=1500,Xr=/^[0-9a-f]{64}$/;function q(t){return t!==null&&typeof t=="object"?t:null}function he(t){return typeof t=="number"&&Number.isInteger(t)&&t>=0&&t<2**31}function Ft(t){return t===void 0||typeof t=="number"&&Number.isFinite(t)}function Yr(t){return t===void 0||typeof t=="string"&&Ct.test(t)}function It(t){const e=q(t);return e!==null&&(e.until===null||typeof e.until=="number"&&Number.isFinite(e.until))&&typeof e.now=="boolean"}function st(t){const e=q(t);return e!==null&&typeof e.ver=="string"&&e.ver.length<=128&&Ft(e.seq)&&typeof e.handoff=="string"&&Ir.includes(e.handoff)&&Yr(e.note)}function jt(t){const e=q(t);return e!==null&&he(e.gen)&&(e.phase==="final"||e.phase==="pending")&&(e.from===null||st(e.from))}function Jr(t){const e=q(t);return e!==null&&e.kv===1&&he(e.gen)&&st(e.from)&&Object.hasOwn(e,"data")}function Zr(t){const e=q(t);return e!==null&&e.__frame_hot_snapshot===!0&&he(e.gen)&&typeof e.timeoutMs=="number"&&e.timeoutMs>=0&&e.timeoutMs<=6e4&&(e.handoff===void 0||typeof e.handoff=="boolean")&&(e.deadline===void 0||It(e.deadline))&&Ft(e.seq)&&(e.note===void 0||typeof e.note=="string")&&(e.key===void 0||typeof e.key=="string")}function Qr(t){const e=q(t);return e!==null&&e.__frame_hot_start===!0&&he(e.gen)&&st(e.from)}function en(t){return typeof t=="string"&&t.length>=1&&t.length<=128}function xt(t){return q(t)!==null&&!Array.isArray(t)}function tn(t){const e=q(t);return e!==null&&e.__frame_cap_grant===!0&&typeof e.cap=="string"&&en(e.ver)&&(e.grant===void 0||xt(e.grant))&&(e.budgets===void 0||xt(e.budgets)&&Object.values(e.budgets).every(Number.isFinite))&&(e.brokerGen===void 0||he(e.brokerGen))}function rn(t){const e=q(t);return e!==null&&e.__frame_cap_rewired===!0&&(e.caps===void 0||Array.isArray(e.caps)&&e.caps.every(r=>typeof r=="string"))&&(e.brokerGen===void 0||he(e.brokerGen))}function Ke(t){const e=q(t);return e!==null&&typeof e.ver=="string"&&e.ver.length<=128&&Number.isFinite(e.seq)}function Dt(t){if(t==null||typeof t=="string")return!0;const e=q(t);return e!==null&&typeof e.doc=="string"&&typeof e.profile=="string"}function nn(t){const e=q(t);return e!==null&&typeof e.path=="string"&&Wr.includes(e.kind)&&Dt(e.from)&&Dt(e.to)}function on(t){return t===null?null:Object.freeze(t.filter(nn))}function an(t){const e=q(t);return e!==null&&e.__frame_hot_update===!0&&Number.isFinite(e.id)&&Ke(e.from)&&Ke(e.to)&&(e.changed===null||Array.isArray(e.changed))&&Gr.includes(e.required)&&It(e.deadline)&&typeof e.verdictTimeoutMs=="number"&&e.verdictTimeoutMs>=0&&e.verdictTimeoutMs<=6e4&&(e.preflight===void 0||typeof e.preflight=="string"&&Xr.test(e.preflight))}function sn(t){const e=q(t);return e!==null&&e.__frame_hot_readdress===!0&&Ke(e.from)&&Ke(e.to)}var pe=/^[\w.-]+\.js$/;function ln(t,e,r){return r?"inert":typeof e=="string"&&pe.test(e)?t?[e]:"inert":t?"inert":"framed"}var Ht=Object.freeze({[Symbol("claude.hot.restart")]:!0});function Bt(t,e){let r;try{r=t??sessionStorage}catch{return null}const n=at(e?.k),a=Oe(e?.k);let s=null;try{s=r.getItem(n)}catch{}try{r.removeItem(n)}catch{}try{Ur(r,a)}catch{}let l=null;if(s!==null&&!(e!==null&&e.g===void 0))try{const u=JSON.parse(s);Jr(u)&&(e===null||u.gen===e.g)&&(l=u)}catch{}if(l===null)try{r.removeItem(a)}catch{}return l}function qt(){const t=/^\/_f\/([^/]{1,128})\//.exec(location.pathname);return t?t[1]:""}var cn=/^[^/\\?#]{1,128}$/,it=t=>cn.test(t)&&t!=="."&&t!=="..";function Ut(t,e,r){const n=new URL(t),a="/_f/"+e+"/";if(!e||!n.pathname.startsWith(a)||!it(r))return null;const s=n.search.slice(1).split("&").filter(l=>!/^__frame_t(?:=|$)/.test(l)).join("&");return n.origin+"/_f/"+r+"/"+n.pathname.slice(a.length)+(s?"?"+s:"")+n.hash}var ze="{}";function Me(t){if(!t)return null;const e={ver:t.ver,handoff:t.handoff};return t.seq!==void 0&&(e.seq=t.seq),t.note!==void 0&&(e.note=t.note),e}function $t(t,e){return t!==null&&t.note===void 0&&e?.note!==void 0?{...t,note:e.note}:t}function Kt(t){const e=t?.k;return e!==null&&typeof e=="object"?e:void 0}function un(t,e,r,n=null){const a=setTimeout,s=clearTimeout,l=queueMicrotask,u=performance.now.bind(performance),R=new TextEncoder;let b=null,g=null;try{b=history,g=b.replaceState.bind(b)}catch{}const p=(...o)=>{try{console.warn(...o)}catch{}};let k=qt(),L=null;try{L=sessionStorage}catch{}const m={storage:L,fetch:typeof fetch=="function"?fetch.bind(globalThis):null,entry:location.origin+location.pathname+location.search,ver:k,priors:[],key:n?.k};let j=n?.k;const A=typeof requestAnimationFrame=="function"?requestAnimationFrame:o=>a(()=>o(u()),16);let _=e?.data??{},E=Me(e?.from),x=e?.gen??0,D=e!==null,B=!1,W=!1,H=null,Ie=!1;const be=new AbortController;let je=null,U=null,Ee=null,xe=!1,ce=()=>{};const te=new Promise(o=>{ce=o});let ve=!1,Je=!1,Se=!1,c,h=null,y=!1,O=!1,F=!1,$=!1,K=!1,Z=!1;const ue=o=>{for(const f of[at(o),Oe(o)])try{L?.removeItem(f)}catch{}},G=(o,f)=>{try{f!==null&&r.post(o,f)}catch{}},_e=()=>K||=F&&(U===null||$),Q=()=>{const o={__frame_hot:!0,ready:U!==null,accept:Ee!==null,demand:!0};Z=!K,Z&&(o.booting=!0),ve&&(o.readData=!0),Se&&(o.threw=!0),h?.assess&&(o.preflight=!0),G(o,H)};let De=!1,He=!1,fe=!1,re=!1;const Be=()=>{De||!Ie||fe||(De=!0,G({__frame_reveal_hold:!0},"*"))},ke=()=>new Promise(o=>{let f,d=0;const v=P=>{if(f===void 0)f=P;else if(P!==f||++d>=8){o();return}try{A(v)}catch{o()}};try{A(v)}catch{o()}}),Ze=()=>{fe=!0,G({__frame_reveal_ready:!0},"*")},ye=o=>{He||(He=!0,o.then(f=>{if(f===!1)return;let d=null;try{d=h?.settle?.()??null}catch{}return(d===null?ke():new Promise(v=>{a(v,50),Promise.resolve(d).then(v,v)}).then(ke)).then(Ze)}))},Qe=()=>{if(re||!fe)return;re=!0;const o=()=>{try{h?.afterReveal?.()}catch{}};o(),ke().then(()=>{o(),Ze()})},ge=(o=!1)=>{if(xe||U===null||!D||!W)return;xe=!0;const f=U,d=_;l(()=>{let v;try{v=f(d)}catch(N){throw ce(!1),N}let P=!1;try{P=typeof v?.then=="function"}catch{}if(!P){ce(!0);return}Promise.resolve(v).then(()=>ce(!0),N=>{ce(!1),l(()=>{throw N})})}),ye(o?te:r.dcl.then(()=>te))},Ae=o=>typeof o=="string"&&Ct.test(o)?o:void 0,qe=o=>{const f={__frame_hot_restart:!0},d=Ae(o?.note);d!==void 0&&(f.note=d),o?.required==="hard-reload"&&(f.required="hard-reload"),G(f,H)},ne=Object.freeze({get data(){return W||(Je=!0),!D&&!ve&&(ve=!0,W&&Q()),_},get from(){return E},get gen(){return x},signal:be.signal,snapshot(o){typeof o=="function"&&(je=o)},ready(o){typeof o!="function"||U!==null||(U=o,Be(),Q(),B&&G({__frame_hot_ready:!0,gen:x},H),ge())},accept(o){typeof o=="function"&&(Ee=o,Q())},restart(o){const f={note:o?.note,required:o?.required};if(W){qe(f);return}const d=c;c={note:Ae(d?.note)??f.note,required:d?.required==="hard-reload"||f.required==="hard-reload"?"hard-reload":void 0}}});let de=null,Ue=()=>{};const et=new Promise(o=>{Ue=o});let i=null;const S=()=>i??=r.dcl.then(()=>{let o=!1;try{o=de!==null&&de.expect()}catch{}if(!o)return;const f=de.maxMs;return new Promise(d=>{et.then(d),a(d,f)})}),w=()=>{if(!y||O||h===null)return;O=!0;const o=h;S().then(()=>{try{fe||o.afterStart(Kt(e),!1)}catch{}})},M=o=>{e!==null&&Je&&(ve=!0),_={},E=null,x=0;try{L?.removeItem(Oe(n?.k))}catch{}e!==null&&!o&&ye(r.dcl.then(()=>U!==null?te:void 0))},ee=()=>{y=!0,ye(S().then(()=>U!==null?te:void 0)),w()};try{addEventListener("error",()=>{Se||U!==null||(Se=!0,Q())})}catch{}const V=()=>{a(()=>{!K&&_e()&&Z&&Q()},0)};try{F=document.readyState==="complete",F||addEventListener("load",()=>{F=!0,V()},{once:!0})}catch{F=!0}_e(),te.then(()=>{$=!0,V()});let z=-1,Et,St,$e=!0,kt=!1,At,tt=null;const Rt=o=>{const f=tt===null;tt=$e&&o[0]!=="withheld"?o:["withheld",o[1],ze];let d=o[0];if($e&&d!=="withheld"){const P={ver:k,handoff:d};Et!==void 0&&(P.seq=Et),St!==void 0&&(P.note=St);try{if(L===null)throw new Error("no storage");L.setItem(at(j),'{"kv":1,"gen":'+z+',"from":'+JSON.stringify(P)+(At!==void 0?',"k":'+JSON.stringify(At):"")+',"data":'+(d==="ok"?o[2]:ze)+"}")}catch{d="unavailable"}}else{d="withheld",ue(j);try{h?.release?.()}catch{}}const v={__frame_hot_snapshotted:!0,gen:z,handoff:d,bytes:o[1]};o[3]!==void 0&&(v.errName=o[3]),G(v,H),f&&(d==="snapshot_error"||d==="unclonable"||d==="oversize")&&p("claude.hot: snapshot",d,o[3])},Re=o=>{try{return xr(o?.name)}catch{return"other"}},Te=(o,f,d=0)=>Rt(f===void 0?[o,d,ze]:[o,d,ze,Re(f)]),Vn=o=>{if(o.gen<=z)return;const f=z>=0;if(z=o.gen,Et=o.seq,St=Ae(o.note),typeof o.key=="string"&&Nt.test(o.key)&&o.key!==j&&(ue(j),j=o.key),$e&&=o.handoff!==!1,f){tt!==null?Rt(tt):kt&&G({__frame_hot_held:!0,gen:z},H);return}be.abort();const d=Object.freeze({handoff:$e,timeoutMs:o.timeoutMs,deadline:o.deadline??Dr}),v=je,P=()=>{if($e)try{At=h?.capture()}catch{}if(v===null){Te("empty");return}let T=!1;const X=a(()=>{T||(T=!0,Te("snapshot_timeout"))},Math.max(0,d.timeoutMs));Promise.resolve().then(()=>v(d)).then(Le=>{if(T)return;T=!0,s(X);let oe;try{oe=JSON.stringify(Le)}catch(Tt){Te("unclonable",Tt);return}if(typeof oe!="string"){Te("unclonable");return}let ae=oe.length;try{ae=R.encode(oe).length}catch{}if(ae>262144){Te("oversize",void 0,ae);return}Rt(["ok",ae,oe])},Le=>{T||(T=!0,s(X),Te("snapshot_error",Le))})};let N=null;try{N=h?.holdForIme()??null}catch{}if(N===null)P();else{kt=!0,G({__frame_hot_held:!0,gen:z},H);const T=()=>{kt=!1,P()};N.then(T,T)}},Xn=o=>{if(!B||D||U===null||o.gen!==x)return;let f=null;try{f=Bt(L,n&&{k:n.k,g:o.gen})}catch{}if(f!==null&&f.gen!==o.gen){f=null;try{L?.removeItem(Oe(n?.k))}catch{}}_=f?.data??{},E=$t(Me(f?.from??o.from),Me(o.from)),f!==null&&(x=f.gen),D=!0,B=!1;const d=Kt(f);te.then(v=>{try{v&&h?.afterStart(d,!0)}catch{}}),ge(!0)},lr=o=>{const f=k,d=m.entry;let v="",P,N=null;try{if(v=location.href,P=b.state,N=Ut(v,f,o),N!==null)if(g(P,"",N),location.pathname.startsWith("/_f/"+o+"/"))N=location.href;else return{failed:"navigate event canceled"}}catch(T){return{failed:Re(T)}}k=m.ver=o,m.priors.push(f)>8&&m.priors.splice(1,1);try{m.entry=Ut(d,f,o)??d}catch{}return[N,f,d,v,P]},Yn=({from:o,to:f})=>{let d,v;if(!it(f.ver))d="adopt_failed",v="not a version path segment";else if(f.ver===k)d="adopted";else if(!k||o.ver!==k)d="stale";else{const N=lr(f.ver);"failed"in N?(d="adopt_failed",v=N.failed):d=N[0]===null?"adopt_skipped":"adopted"}v!==void 0&&p(`claude.hot: could not move this page's URL to its new version folder /_f/${f.ver}/ (${v})`);const P={__frame_hot_readdressed:!0,to:f.ver,at:k,outcome:d};G(P,H)};let rt=0;const Jn=o=>{const f=Ee;if(f===null||o.id<=rt)return;rt=o.id;const d=h?.assess;if(o.preflight===void 0||d===void 0){cr(o,f);return}let v=!1;const P=X=>{v||(v=!0,s(T),o.id===rt&&cr(o,f,X))},N=()=>P(d.timeout(o)),T=a(N,Vr+100);d.run(o,window).then(P,N)},cr=(o,f,d)=>{let v,P=!1,N=!1,T,X,Le=null;const oe=I=>{if(N)return!1;if(T!==void 0&&T!==I)return p(`claude.hot: u.${I}() ignored - u.${T}() was called first`),!1;const se=T===void 0;return T=I,se},ae=I=>{T="restart",p(`claude.hot: ${I} - restarting`)},Tt=()=>{if(!oe("adopt")||o.id!==rt)return;const I=o.to.ver;if(nt.required!=="none"){ae(`u.adopt() needs required 'none', it is '${nt.required}'`);return}if(!it(I)){ae("u.adopt() cannot address this version");return}if(!k||I===k)return;const se=lr(I);if("failed"in se){X="adopt_failed",ae(`adopt_failed ${se.failed}; URL not changed`);return}const[J,Ot,eo,fr,to]=se;J===null?(X="adopt_skipped",p(`claude.hot: adopt_skipped - page already left /_f/${Ot}/; URL not changed, update still applied`)):X="adopted",Le=()=>{if(k===I){if(J!==null)try{if(location.href!==J)p("claude.hot: adopt_revert_skipped - update not applied; URL left where the page navigated");else{if(g(to,"",fr),location.href!==fr){p("claude.hot: adopt_revert_failed navigate event canceled - URL still at the new version");return}X="adopt_reverted",p("claude.hot: adopt_reverted - adopt() was called but the handler threw; URL restored")}}catch(ro){p(`claude.hot: adopt_revert_failed ${Re(ro)} - URL still at the new version`);return}k=m.ver=Ot,m.entry=eo,m.priors[m.priors.length-1]===Ot&&m.priors.pop(),J===null&&(X=void 0)}}},nt=Object.freeze({from:{ver:o.from.ver,seq:o.from.seq},to:{ver:o.to.ver,seq:o.to.seq},changed:on(o.changed),required:o.required,deadline:o.deadline,adopt:Tt,defer(){return oe("defer")&&nt.deadline.now&&ae("u.defer() past the deadline"),Ht},restart(I){return oe("restart"),T==="restart"&&!N&&(v??=Ae(I?.note),P||=I?.required==="hard-reload"),Ht},...d?.update}),Zn=(I,se)=>{N=!0,I==="threw"?(Le?.(),v??=Re(se).toLowerCase()):T===void 0&&p(I==="timeout"?"claude.hot: accept handler did not answer in time - restarting":"claude.hot: accept handler settled without defer/restart/adopt - restarting");const J={__frame_hot_verdict:!0,id:o.id};J.verdict=I==="threw"||T===void 0||T==="restart"?"restart":T==="adopt"?"applied":"deferred",J.verdict==="restart"&&(P&&(J.required="hard-reload"),v!==void 0&&(J.note=v)),X!==void 0&&(J.verdict==="applied"||X!=="adopted")&&(J.adopt=X),G(Object.assign(J,d?.verdict),H)};let ur=!1;const Lt=(I,se)=>ur?!1:(ur=!0,s(Qn),Zn(I,se),!0),Qn=a(()=>Lt("timeout"),o.verdictTimeoutMs);Promise.resolve().then(()=>f(nt)).then(()=>Lt("settled"),I=>{!Lt("threw",I)&&T==="adopt"&&qe({note:Re(I).toLowerCase()}),p("claude.hot: accept",Re(I))})};try{t.hot===void 0&&Object.defineProperty(t,"hot",{value:ne,writable:!1,configurable:!1,enumerable:!1})}catch{}return{hot:ne,boot:m,afterConnect(){Ie=!0,(e!==null||U!==null)&&Be()},onInit(o,f){H=f,W=!0;const d=jt(o)?o:null;d?.phase==="final"&&e!==null&&e.gen===d.gen?(D=!0,E=$t(E,Me(d.from)),ee()):(B=d?.phase==="pending",M(B),D=!B,x=d?.gen??0,E=Me(d?.from)),Q(),Z&&a(()=>{K||(K=!0,Q())},zr),B&&U!==null&&G({__frame_hot_ready:!0,gen:x},f),c!==void 0&&(qe(c),c=void 0),ge()},onNoInit(){W=!0,M(!1),D=!0,ge()},onShell(o){return o?.__frame_revealed===!0?(Qe(),!1):Zr(o)?(Vn(o),!0):Qr(o)?(Xn(o),!0):an(o)?(Jn(o),!0):sn(o)?(Yn(o),!0):!1},attachExtras(o){h=o,w(),o.assess&&Q()},inSlot:()=>Oe(j),hydration(o,f){de??={expect:o,maxMs:f}},hydrated(){Ue()},carried(){return D?_:{}},presented:()=>fe}}var so="frame_ldx_runtime",fn="frame_ldx_build",io="script#an-form",dn=256;function lt(t,e,r){for(const n of t)r(n)&&t.delete(n);t.size>=dn&&!t.has(e)&&t.delete(t.values().next().value),t.add(e)}function Pe(t,e,r,n){try{const a=t[e];if(typeof a!="function")return;t[e]=function(...s){if(n){let u;try{u=n(this)}catch{}if(u!==void 0)return u}const l=a.apply(this,s);try{r?.(this)}catch{}return l}}catch{}}var hn=()=>{},ct;function pn(){if(ct)return ct;const t={media:new Set,contexts:new Set,wakeLocks:new Set,gate:null,refuse:null,onStart:null,onStop:null};ct=t;const e=l=>t.gate?.(l),r=l=>{t.onStop?.(l)},n=window.HTMLMediaElement?.prototype;n&&(Pe(n,"play",l=>{lt(t.media,l,u=>u.paused),t.onStart?.(l)},e),Pe(n,"pause",r));const a=window.AudioContext,s=window.AudioNode?.prototype;a&&s&&(Pe(s,"connect",l=>{const u=l.context;u instanceof a&&(lt(t.contexts,u,R=>R.state==="closed"),t.onStart?.(u))}),Pe(a.prototype,"resume",void 0,e),Pe(a.prototype,"suspend",r));try{const l=window.WakeLock?.prototype,u=l?.request;l&&typeof u=="function"&&(l.request=function(...R){if(t.refuse)return t.refuse();const b=u.apply(this,R);return Promise.resolve(b).then(g=>{lt(t.wakeLocks,g,p=>p.released),t.onStart?.(g)},hn),b})}catch{}return t}function mn(t){let e=window;for(let r=0;e.parent&&e.parent!==e&&r<8;r++)if(e=e.parent,t(e))return!0;return!1}function vn(){let t=null;const e=()=>t??parent,r=n=>t?n===t:mn(a=>a===n);return{post(n,a){if(t){e().postMessage(n,a);return}let s=parent;for(let l=0;l<8&&(s.postMessage(n,a),!(!s.parent||s.parent===s));l++)s=s.parent},on(n){const a=s=>{const l=s.source;r(l)&&n(s.data,s.origin,s.isTrusted,()=>{t??=l})};return addEventListener("message",a),()=>removeEventListener("message",a)},port:n=>({post(a,s){if(s?.activation){e().postMessage(a,{targetOrigin:n,includeUserActivation:!0});return}if(s?.transfer){e().postMessage(a,n,s.transfer);return}e().postMessage(a,n)},on(a,s){const l=u=>{r(u.source)&&u.origin===n&&a(u.data,u)};return addEventListener("message",l,s),()=>removeEventListener("message",l,s)}})}}function _n(){const t={post:()=>{},on:()=>()=>{}};return{...t,port:()=>t}}var yn=500,gn=2e4,wn="data-token-reads",bn="data-frame-refused-watch",En="data-frame-unsupported",Sn=/(?:^|\s)stylesheet(?:\s|$)/i;function kn(t,e){let r="";if(t instanceof HTMLScriptElement?r=t.src:t instanceof HTMLLinkElement&&Sn.test(t.rel)&&(r=t.href),!r)return null;try{const n=new URL(r);return n.origin===location.origin&&n.pathname.startsWith(e)?n.origin+n.pathname:null}catch{return null}}function An(t,e,r){if(!t||e!=="query")return;const n="/_f/"+t+"/";document.documentElement.setAttribute(bn,"");const a=location.href,s=fetch,l=setTimeout,u={method:"HEAD",cache:"no-store",credentials:"same-origin"},R=m=>m.ok||m.status===304;let b=!1,g=!1;const p=()=>removeEventListener("error",L,!0),k=async m=>{const j=await s(m,u);if(R(j))g=!0;else if(j.status===403){const A=await s(a,u);if(R(A)){const _=(await s(m,u)).status;_===403?(g=!0,document.documentElement.setAttribute(En,""),r()):_<500&&(g=!0)}else A.status>=400&&A.status<500&&(g=!0)}},L=m=>{if(g||b)return;if(document.documentElement.hasAttribute(wn)){g=!0,p();return}const j=kn(m.target,n);j&&(b=!0,l(()=>{k(j).catch(()=>{}).finally(()=>{b=!1,g&&p()})},yn))};addEventListener("error",L,!0),addEventListener("load",p,{once:!0}),l(p,gn)}var ut="__frame_scroll",Rn=150,Tn=310,Ln=160,On=3e4,zt="p,h1,h2,h3,h4,h5,h6,li,pre,blockquote,tr,dt,dd,figcaption,summary",Gt=()=>innerWidth<=Tn&&innerHeight<=Ln,Wt=t=>{const e=document.createTreeWalker(t,NodeFilter.SHOW_TEXT);let r="";for(;r.length<600&&e.nextNode();)r+=e.currentNode.nodeValue.slice(0,600-r.length);const n=r.replace(/\s+/g," ").trim().slice(0,120);let a=2166136261;for(let s=0;s<n.length;s++)a=Math.imul(a^n.charCodeAt(s),16777619);return n.length>11?a>>>0||1:0},Vt=t=>{for(let e=t;e&&e!==document.scrollingElement;e=e.parentElement){const r=getComputedStyle(e).position;if(r==="fixed"||r==="sticky"||e!==t&&e.scrollTop)return!1}return!0},Mn=()=>{const t=[],e=[];try{for(let r=0;r<16;r++){const n=document.elementFromPoint(innerWidth/(r%2?4:2),innerHeight*(r>>1)/8+1);let a=n?.closest(zt)??n;for(;a&&!a.matches(zt)&&![...a.childNodes].some(l=>l.nodeType===3&&l.nodeValue?.trim());)a=a.parentElement;const s=a&&!e.includes(a)?Wt(a):0;s&&!t.some(l=>l[0]===s&&l[2]===a.tagName)&&Vt(a)&&(e.push(a),t.push([s,Math.round(a.getBoundingClientRect().top),a.tagName]))}}catch{}return t.sort((r,n)=>+(r[1]<0)-+(n[1]<0)),t.length?t.slice(0,3):void 0},Pn=t=>{try{for(const[e,r,n]of t.a??[]){const a=document.getElementsByTagName(n);let s;for(let u=0;u<a.length&&a.length<5e3;u++)Wt(a[u])===e&&(s=s===void 0||s?.contains(a[u])?a[u]:null);const l=s?.getBoundingClientRect();if(l?.height&&s.checkVisibility?.()!==!1&&Vt(s)&&isFinite(r))return Math.max(0,Math.round(scrollY+l.top-r))}}catch{}return t.y};function Nn(){let t=0,e=!1,r=!1,n=!1,a={y:0},s=null;const l=E=>{try{sessionStorage.setItem(ut,JSON.stringify(E))}catch{}},u=E=>{if(clearTimeout(t),s===null)return;const x=s;s=null,l({y:x,a:E&&x>0?Mn():void 0})},R=()=>{if(e){e=!1;return}r=!0,s=scrollY,clearTimeout(t),t=setTimeout(u,Rn,!0)};try{addEventListener("scroll",R,{passive:!0}),addEventListener("pagehide",()=>u())}catch{}const b=()=>{let E;try{E=sessionStorage.getItem(ut)}catch{return null}if(E===null)return null;let x;try{x=JSON.parse(E)}catch{x=null}const{y:D,a:B}=x??{};if(!(typeof D=="number"&&Number.isFinite(D)&&D>=0)){try{sessionStorage.removeItem(ut)}catch{}return null}const W=H=>Array.isArray(H)&&typeof H[0]=="number"&&Number.isFinite(H[1])&&typeof H[2]=="string";return{y:D,a:Array.isArray(B)&&B.length<4&&B.every(W)?B:void 0}};let g=!1,p=-1;const k=E=>{try{const x=scrollY,D=Pn(E);scrollTo({top:D,left:0,behavior:"instant"}),a=Gt()?E:{y:D,a:E.a},n=!0,clearTimeout(t),s=null,l(a),p=scrollY,p!==x&&(e=!0);const B=D!==E.y&&document.readyState!=="complete";(p!==D||B)&&!g&&(g=!0,addEventListener("load",()=>{try{scrollY===p&&k(b()??a)}catch{}},{once:!0}))}catch{}},L=()=>{try{return!!location.hash}catch{return!0}};let m=!1;const j=()=>{try{if(m||!Gt())return;m=!0;const E=Date.now(),x=()=>{try{removeEventListener("resize",x)}catch{}Date.now()-E>On||r||L()||k(b()??a)};addEventListener("resize",x)}catch{}};let A=!1,_=!1;return{restore(){if(A||(A=!0,L()))return;const E=b();E!==null&&(k(E),j())},promoted(){if(_||(_=!0,L()))return;const E=b();E!==null?(k(E),j()):n&&k(a)}}}function Cn(t,e,r,n){let a=null;try{a=window.trustedTypes?.createPolicy("frame-runtime",{createScriptURL:R=>R})??null}catch{}const s=window.Worker,l=s?.prototype,u=Object.freeze({Worker:s,workerOn:l?.addEventListener,workerPost:l?.postMessage,workerTerminate:l?.terminate,fetch:window.fetch.bind(window),preventDefault:Event.prototype.preventDefault,now:Date.now,policy:a,origins:e});r(t).then(R=>R?.bootTopLevel?R.bootTopLevel(u,n):n.settle()).catch(()=>n.settle())}var lo="modulepreload",co=function(t){return"/"+t},uo={},Fn=function(e,r,n){let a=Promise.resolve();function s(l){const u=new Event("vite:preloadError",{cancelable:!0});if(u.payload=l,window.dispatchEvent(u),!u.defaultPrevented)throw l}return a.then(l=>{for(const u of l||[])u.status==="rejected"&&s(u.reason);return e().catch(s)})},In=window===top,Xt=Object.getOwnPropertyDescriptor(window,"claude"),Ge=ln(In,window.__FRAME_PREAMBLE?.topLevel,Xt?.writable===!1),ft=typeof Ge=="object"&&Ge[0],C=ft?_n():vn();(function(){const t=Object.defineProperty,e=globalThis,r=["RTCPeerConnection","webkitRTCPeerConnection","RTCDataChannel","RTCIceCandidate","RTCSessionDescription","RTCRtpSender","RTCRtpReceiver"];let n=0;for(let a=0;a<r.length;a++){const s=r[a];try{t(e,s,{value:void 0,writable:!1,configurable:!1})}catch{try{delete e[s]}catch{}try{t(e,s,{value:void 0,writable:!1,configurable:!0})}catch{}}typeof e[s]=="function"&&n++}if(n&&Ge==="framed")try{C.post({__frame_rtc_lockdown_failed:n},"*")}catch{}})();var Yt=1e4,jn=2e3,dt=2e3,ht=Object.freeze([...window.__FRAME_PREAMBLE?.origins??["https://claude.ai","https://preview.claude.ai"]]),xn="https://*.";function Jt(t){for(const e of ht)if(e.endsWith(":*"))try{const r=new URL(t);if(`${r.protocol}//${r.hostname}:*`===e)return!0}catch{}else if(e.startsWith(xn)){if(Dn(e.slice(10),t))return!0}else if(t===e)return!0;return!1}function Dn(t,e){if(!/^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(t))return!1;let r;try{r=new URL(e)}catch{return!1}if(r.protocol!=="https:"||r.port!==""||r.origin!==e)return!1;const n=r.hostname;if(!n.endsWith(`.${t}`))return!1;const a=n.slice(0,n.length-t.length-1);return/^[a-z0-9-]+$/.test(a)}var Ne=Object.freeze({...window.__FRAME_PREAMBLE?.capabilities}),Ce=window.__FRAME_PREAMBLE?.transforms,pt=window.__FRAME_PREAMBLE?.comments,mt=window.__FRAME_PREAMBLE?.translate,me=window.__FRAME_PREAMBLE?.ldx,We=dr(window.__FRAME_PREAMBLE?.cred),Zt=(()=>{try{const[t]=performance.getEntriesByType("navigation"),e=t?.serverTiming?.find(r=>r.name==="frame-cred-exp");return e!==void 0&&/^\d{1,15}$/.test(e.description)?hr(Number(e.description)):void 0}catch{return}})();function Qt(t){return Fn(()=>import("/_runtime/"+t),void 0)}var Fe=new Set,er=setTimeout,Hn=fetch,Bn=AbortController,qn=800+800*Math.random(),Un=3e3,Ve=null,tr=new Map;function $n(t,e){let r=tr.get(t);return r||tr.set(t,r=Kn(t,e)),r}function Kn(t,e){if(Ve?.has(t))return Promise.resolve("csp");if(navigator.onLine===!1)return Promise.resolve("offline");const r=new Bn;let n=!1;return er(()=>{n=!0,r.abort()},Un),Hn("/_runtime/"+t,{signal:r.signal}).then(a=>(r.abort(),a.ok?/javascript/i.test(a.headers.get("content-type")??"")?e instanceof Error&&/:\d+:\d+\)?$/m.test(e.stack??"")?"eval":"served":"mime":"http"),()=>n?"timeout":Ve?.has(t)?"csp":"net")}function ie(t){if(!Ve){const e=Ve=new Set;try{document.addEventListener("securitypolicyviolation",r=>{const n=/\/_runtime\/([^/?#]+)/.exec(r.blockedURI);n&&r.disposition!=="report"&&e.add(n[1])})}catch{}}return Qt(t).catch(()=>new Promise(e=>er(e,qn)).then(()=>Qt(t+"?r=1")).then(e=>(e!==void 0&&Fe.add(t),e)))}function rr(t,e,r){return{contract:t.contract,changes:new Set(t.changes??[]),flags:new Set(t.flags??[]),capabilities:t.capabilities??{},capBudgets:t.capBudgets??{},brokerGen:t.brokerGen,transforms:new Map,shellOrigin:e,shell:r,mount:bt,hooks:Xe,pipe:()=>({wrap:(n,a)=>(...s)=>{try{return a(...s)}catch(l){return Promise.reject(l)}}})}}var we=null,Y=null;function nr(t,e,r){try{Object.defineProperty(t,e,{value:r,writable:!1,configurable:!1,enumerable:!0})}catch{try{Object.defineProperty(t,e,{value:r,writable:!1,configurable:!0,enumerable:!0})}catch{}}}var vt=!1,Xe={editBefore:null,edit:null};function zn(t,e,r=!1){const n=[];let a;if(r)try{Xe.editBefore?.(t)}catch{}for(const s of t.elements){const l=document.querySelector(`[data-id="${s.target}"]`);if(!l){a=s.target;break}if([...Object.keys(s.attrsSet??{}),...s.attrsRemoved??[]].some(u=>!yr(u)||gr(l,u))){a=s.target;break}if(s.text!==void 0&&(!Sr(l)||Tr(l))){a=s.target;break}for(const[u,R]of Object.entries(s.attrsSet??{}))if(!ar(l,u)){try{l.setAttribute(u,R)}catch{}or(l,u,R)}for(const u of s.attrsRemoved??[])ar(l,u)||(l.removeAttribute(u),or(l,u,null));typeof s.text=="string"&&Ar(l,s.text),n.push(s.target)}if(r)try{Xe.edit?.(t.seq,n,a)}catch{}if(a!==void 0){C.post({__frame_patch_miss:{seq:t.seq}},e);return}try{document.dispatchEvent(new CustomEvent("claude:edit",{detail:{seq:t.seq,targets:n}}))}catch{}}function or(t,e,r){if(!(t instanceof HTMLInputElement))return;const n=e.toLowerCase();n==="checked"?t.checked=r!==null:n==="value"&&t.type!=="file"&&(t.value=r??"")}function ar(t,e){const r=e.toLowerCase(),n=t;return r==="data-id"||(r==="value"||r==="checked")&&(n.__artifactSecret===!0||/^(password|hidden|file)$/.test(n.type??"")||/(^|\s)(cc-|one-time-code|current-password|new-password)/i.test(`${t.getAttribute("autocomplete")??""} ${n.autocomplete??""}`))}function sr(t){const e=document.documentElement;t==="light"||t==="dark"?(e.dataset.theme=t,e.style.colorScheme=t,vt=!0):vt&&(delete e.dataset.theme,e.style.colorScheme="",vt=!1)}var le=new Map,_t=null;function yt(){let t;const e={u:new Promise(r=>{t=r}),r:r=>{e.done=!0,t(r)},done:!1,nulled:!1};return e}function Ye(t,e){t.nulled=!0,t.ver=e,t.r(null)}function gt(t,e){for(const[r,n]of le)n.done||(e&&n.asked?e(r,n):Ye(n,t))}function Gn(){for(const t of le.values())if(t.asked&&!t.done)return!0;return!1}var Wn=Object.freeze(Object.assign(Object.create(null),{call:Function.prototype.call,apply:Function.prototype.apply,bind:Function.prototype.bind})),wt=!1,bt=(t,e)=>{let r=le.get(t);if(r?.nulled&&wt)r=yt(),le.set(t,r);else if(!r||r.done){r?.nulled&&Y&&C.post({__frame_cap_telemetry:{kind:"cap-load-error",cap:t,phase:"install"}},Y);return}const n=typeof e=="function"?Object.setPrototypeOf(e,Wn):Object.assign(Object.create(null),e);typeof n.then=="function"&&delete n.then,r.want=void 0,r.r(Object.freeze(n))};function ir(){const t=Xt?.value??{};nr(window,"claude",t);for(const e of Object.keys(Ne)){if(t[e]!==void 0){nr(t,e,t[e]);continue}le.set(e,yt())}if(t.use===void 0){const e=r=>{if(typeof r!="string"||!Object.hasOwn(Ne,r))return Promise.resolve(null);let n=le.get(r);return n?(_t&&(n.nulled||n.want!==void 0)&&(n=_t(r,n)),n.asked=!0,n.u):Promise.resolve(t[r]??null)};try{Object.defineProperty(t,"use",{value:e,writable:!0,configurable:!0,enumerable:!1})}catch{}}return t}if(Ge==="framed"){let t;const e=Ce&&pe.test(Ce)?ie(Ce).catch(c=>{t={f:Ce,e:c}}):Promise.resolve(void 0),r=c=>{if(c.type==="auxclick"&&c.button!==1)return;const h=c.target,y=h&&h.closest?h.closest("a[href],area[href]"):null;if(!y)return;const O=y.getAttribute("href");if(!O)return;let F;try{F=new URL(O,document.baseURI)}catch{return}if((F.protocol==="http:"||F.protocol==="https:")&&F.origin!==location.origin){c.preventDefault();const $=(y.getAttribute("target")??"").toLowerCase(),K=c.type==="auxclick"||c.metaKey||c.ctrlKey||c.shiftKey||c.altKey||!["","_self","_top","_parent"].includes($);C.post({__frame_nav:!0,url:F.href,newTab:K},"*")}};addEventListener("click",r,!0),addEventListener("auxclick",r,!0);const n={},a=c=>{c.isTrusted&&(n.pointer=!0)},s=c=>{c.isTrusted&&(n.click=!0)};addEventListener("pointermove",a,{capture:!0,passive:!0}),addEventListener("click",s,{capture:!0,passive:!0});const l={cb:null};addEventListener("keydown",c=>l.cb?.(c),!0);const u={cb:null};addEventListener("keydown",c=>u.cb?.(c));const R=pn();e.then(c=>c?.installEscapeForward?.(l,h=>{Y&&C.post(h,Y)})),e.then(c=>{try{c?.installFocusKeep?.()}catch{}}),e.then(c=>{if(!c?.wireNav)return;const h=C.port("*");c.wireNav(h),removeEventListener("click",r,!0),removeEventListener("auxclick",r,!0),removeEventListener("pointermove",a,!0),removeEventListener("click",s,!0),c.wireEngagement?.(n,h,R)});let b=null;try{b=Nn()}catch{}const g=document.readyState==="loading"?new Promise(c=>document.addEventListener("DOMContentLoaded",()=>c(),{once:!0})):Promise.resolve();let p="dcl",k=!1;g.then(()=>{k=!0});let L=null,m=null;try{m=$r(window.name),L=Bt(null,m)}catch{}const j=ir();let A=null;try{A=un(j,L,{post:(c,h)=>C.post(c,h),dcl:g},m)}catch{}e.then(c=>{try{A&&c?.installHotExtras?.(A)}catch{}});let _=null;const E=()=>Array.isArray(_?.flags)&&_.flags.includes("frame_ldx_runtime")&&!!me&&pe.test(me)&&document.querySelector("script#an-form")!==null;try{A?.hydration(E,Kr)}catch{}let x=null,D=0;const B=C.on((c,h,y,O)=>{Jt(h)&&Pr(c)&&(O(),_=c.__frame_init,Y=h,B(),clearTimeout(D),x?.())});if(We){const c=Zt===void 0?{__frame_cred:We}:{__frame_cred:We,exp:Zt};for(const h of ht)try{h.includes("*")||C.post(c,h)}catch{}}C.post({__frame_connect:!0},"*");try{A?.afterConnect()}catch{}const W=setTimeout,H=clearTimeout,Ie=()=>new Promise(c=>W(c,0));let be=()=>NaN,je=()=>[];try{be=performance.now.bind(performance),je=performance.getEntriesByType.bind(performance)}catch{}let U=0;const Ee=()=>{try{C.post({__frame_alive:!0},"*")}catch{}U=W(Ee,jn)},xe=()=>H(U);Ee(),addEventListener("load",xe,{once:!0});const ce=new Promise(c=>{x=c,D=setTimeout(()=>{B(),c()},Yt)}),te=new WeakSet;addEventListener("error",c=>{c.target&&te.add(c.target)},!0);try{An(qt(),We,()=>{e.then(c=>{try{c?.drawRefusedNotice?.()}catch{}})})}catch{}const ve=()=>{let c=[];try{c=[...document.querySelectorAll("link[rel~=stylesheet]:not([rel~=alternate])")].filter(y=>!y.sheet&&!y.disabled&&!te.has(y)&&y.getAttribute("href")&&URL.canParse(y.href)&&(!y.media||matchMedia(y.media).matches))}catch{}let h=c.length;return h===0?Promise.resolve():new Promise(y=>{try{const O=dt-be();O>0&&(p="sheets");const F=W(y,O>0?O<dt?O:dt:0),$=()=>{--h===0&&(H(F),y())};for(const K of c)K.addEventListener("load",$,{once:!0}),K.addEventListener("error",$,{once:!0})}catch{y()}})};g.then(()=>{try{b?.restore()}catch{}});const Je=Promise.all([ce,g,e]).then(c=>{if(_?.hostOverlays!==!0||!Y)return;const h=c[2],y=$=>{try{return $?.()===!0}catch{return!1}},O={cover:y(h?.declaresCover),..._.hostSides===!0&&{sides:y(h?.declaresSides)},...h?.answerLayoutCheck&&{checks:!0}};if(C.post({__frame_layout:O},Y),_.hostBackground!==!0)return;const F=Y;return Ie().then(ve).then(()=>{try{h?.watchBackground?.($=>C.post({__frame_layout:{...O,background:$}},F))}catch{}})}),Se={cb:null};C.on((c,h)=>{if(Jt(h)&&Nr(c)){try{b?.promoted()}catch{}Se.cb?.()}}),ce.then(async()=>{if(!_||!Y){gt();try{A?.onNoInit()}catch{}return}if(sr(_.theme),_.hostVisible===!1&&e.then(i=>i?.applyHostVisible?.(!1,R)),_.hostKeys!==void 0){const i=Y,S=_.hostKeys;e.then(w=>w?.installHostKeyForward?.(u,S,M=>C.post(M,i)))}try{A?.onInit(_.hot,Y)}catch{}let c;const h=()=>{try{!c&&me&&E()&&(c=ie(me),c.then(i=>i?.prefetch?.()).catch(()=>{}))}catch{}};h(),g.then(h);const y=Y,O=C.port(y),F=(i,S)=>C.post({__frame_cap_telemetry:{kind:"cap-load-error",cap:i,phase:S}},y),$=(i,S,w)=>{new Promise(M=>M($n(S,w))).then(M=>F(i,M),()=>F(i))},K=i=>C.post({__frame_cap_recovered:{cap:i}},y);let Z=_.brokerGen;const ue=()=>A?.boot.ver??"",G=ue(),_e=(i,S)=>{const w=ue();H(S.t),S.want=w,S.t=W(()=>{S.done||Ye(S,w)},Yt),C.post({__frame_cap_want:!0,cap:i,ver:w},y)},Q=(i,S)=>{const w=le.get(i.cap),M=Ne[i.cap];if(!S||!w||w.done||w.want!==i.ver||!pe.test(M))return;if(H(w.t),w.want=void 0,Z=i.brokerGen??Z,i.ver!==ue()){_e(i.cap,w);return}if(!i.grant||i.cap==="network"){Ye(w,i.ver);return}const ee=we,V=we={...ee,capabilities:{...ee.capabilities,[i.cap]:i.grant},capBudgets:{...ee.capBudgets,[i.cap]:{...ee.capBudgets[i.cap],...i.budgets}}};ie(M).then(z=>{Fe.has(M)&&K(i.cap),V.brokerGen=Z,wt=!0;try{z?.install?.(V)}catch{F(i.cap,"install")}finally{wt=!1}},z=>$(i.cap,M,z)).then(()=>{w.done||Ye(w,i.ver)})};let De=!1,He=!1;C.on((i,S,w)=>{if(S!==y)return;try{if(A?.onShell(i))return}catch{}if(Fr(i)&&sr(i.__frame_theme.theme),tn(i)&&Q(i,w),w&&rn(i)&&(Z=i.brokerGen??Z),Cr(i)){const V=i.__frame_host_visible.visible;e.then(z=>z?.applyHostVisible?.(V,R))}i?.__frame_layout_check&&e.then(V=>V?.answerLayoutCheck?.(i,z=>C.post({__frame_layout_verdict:z},y))),Mr(i)&&zn(i.__frame_patch,y,w);const M=i?.__fc_mode;M&&typeof M=="object"&&!De&&pt&&pe.test(pt)&&(De=!0,ie(pt).then(V=>V.install?.(y,M.on===!0,O)).catch(()=>{}));const ee=i?.__ft_cmd;ee&&typeof ee=="object"&&!He&&mt&&pe.test(mt)&&(He=!0,ie(mt).then(V=>V.install?.(y,ee,O)).catch(()=>{}))});const fe=Object.keys(_.capabilities??{}).filter(i=>Object.hasOwn(Ne,i)).map(i=>[i,Ne[i]]).filter(i=>typeof i[1]=="string"&&pe.test(i[1])),re=y;let Be=!1,ke=()=>{};const Ze=new Promise(i=>{ke=()=>{Be=!0,i()}}),ye=()=>(Be||(p="caps"),Ze),Qe=L!==null||jt(_.hot)||_.hostVisible===!1||_.hostOverlays===!0;k&&(p="init");const ge=_.hostBackground===!0,Ae=g.then(()=>(ge&&ye(),ge?Je:void 0)).then(()=>Qe?ye():Ie()).then(ve).then(()=>{let i=!0;try{i=Qe||Gn()}catch{}return i?ye():void 0}).then(()=>{xe();const i=pr(je,be);C.post(i?{__frame_ready:!0,nav:i,gate:p}:{__frame_ready:!0,gate:p},re),e.then(S=>{S?.installSizeReporter?.(re,Se,O),S?.installPaintReporter?.(O)})}),qe=await Promise.allSettled(fe.map(([,i])=>ie(i))),ne=await e;if(ne?.buildBoot||(t?$("_transforms",t.f,t.e):F("_transforms")),ne?.buildBoot)try{we=ne.buildBoot(_,ne.TRANSFORMS??{},{shellOrigin:re,mount:bt,hooks:Xe,shell:O},i=>C.post({__frame_cap_telemetry:i},re))}catch{F("_transforms","install"),we=rr(_,re,O)}else we=rr(_,re,O);ne?.buildBoot&&Fe.has(Ce??"")&&K("_transforms");const de=we;de.brokerGen=Z;try{ne?.installAnchorMirror?.(O)}catch{}qe.forEach((i,S)=>{const[w,M]=fe[S];if(i.status!=="fulfilled"){$(w,M,i.reason);return}Fe.has(M)&&K(w);try{i.value?.install?.(de)}catch{F(w,"install")}});const Ue=_.capWants===!0;Ue&&(_t=(i,S)=>{const w=ue();if(!w)return S;if(!S.nulled)return S.want!==w&&_e(i,S),S;if(w===S.ver)return S;const M=yt();return le.set(i,M),_e(i,M),M}),gt(G,Ue&&ue()!==G?_e:void 0),ke(),await Ae;let et=!1;try{et=E()}catch{}me&&et?(c??ie(me)).then(i=>i?.boot?.({shellOrigin:y,build:de.flags.has(fn),hot:A?.hot??null,carried:A?.carried(),presented:()=>A?.presented()??!0})).catch(()=>!1).then(i=>{A?.hydrated(),i!==!0?F("_ldx"):Fe.has(me)&&K("_ldx")}):A?.hydrated()})}else ft&&(ir(),Cn(ft,ht,ie,{settle:gt,mount:bt}))})();</script><!-- /frame-runtime --><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Email Studio Lab Assignment FDE-102</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link rel="stylesheet" href="./css2">
+<style>
+/* Layout: a mailroom workbook. Airmail stripe on top, a sticky step index on the left, one stamped card per step on the right. */
+:root {
+  --paper: #F4F6FA;
+  --sheet: #FFFFFF;
+  --ink: #14213D;
+  --muted: #586380;
+  --rule: #D8DEE8;
+  --blue: #1F4FA3;
+  --blue-soft: #E5ECF8;
+  --red: #C2362E;
+  --ok: #1B7A4D;
+  --ok-soft: #E2F3EA;
+  --warn-soft: #FFF3D9;
+  --mark: #FFE36E;
+  --mark-ink: #2B2400;
+  --code: #EEF1F6;
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0E1422; --sheet: #151D2E; --ink: #E6EAF3; --muted: #9AA5BC; --rule: #28324A;
+    --blue: #8DAEFF; --blue-soft: #1C2747; --red: #F07D72; --ok: #6CD29B; --ok-soft: #14301F;
+    --warn-soft: #2D2714; --mark: #E8CB3C; --mark-ink: #1D1800; --code: #0F1626;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0E1422; --sheet: #151D2E; --ink: #E6EAF3; --muted: #9AA5BC; --rule: #28324A;
+  --blue: #8DAEFF; --blue-soft: #1C2747; --red: #F07D72; --ok: #6CD29B; --ok-soft: #14301F;
+  --warn-soft: #2D2714; --mark: #E8CB3C; --mark-ink: #1D1800; --code: #0F1626;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.airmail { height: 10px; background: repeating-linear-gradient(135deg, var(--red) 0 16px, var(--sheet) 16px 24px, var(--blue) 24px 40px, var(--sheet) 40px 48px); }
+.page { max-width: 1200px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 72px; }
+h1, h2, h3, h4 { font-family: var(--font-display); margin: 0; line-height: 1.15; text-wrap: balance; }
+h1 { font-size: clamp(2.3rem, 6vw, 3.8rem); font-weight: 800; font-stretch: 118%; letter-spacing: -0.01em; }
+h2 { font-size: 1.55rem; font-weight: 800; font-stretch: 112%; }
+h3 { font-size: 1.3rem; font-weight: 700; font-stretch: 108%; }
+h4 { font-family: var(--font-mono); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+p { margin: 0; }
+a { color: var(--blue); }
+code { font-family: var(--font-mono); font-size: 0.86em; background: var(--code); padding: 0.08em 0.35em; border-radius: 4px; overflow-wrap: anywhere; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+ul, ol { margin: 0; padding-left: 1.25em; }
+li + li { margin-top: 4px; }
+
+/* Masthead */
+.mast { display: grid; gap: 18px; padding-bottom: 28px; }
+.kicker { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--red); font-weight: 600; }
+.lede { font-size: 1.15rem; max-width: 62ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px; }
+.fact { font-family: var(--font-mono); font-size: 0.78rem; border: 1px solid var(--rule); background: var(--sheet); padding: 4px 10px; border-radius: 99px; }
+.intro { display: grid; grid-template-columns: 1.15fr 1fr; gap: 20px; align-items: start; }
+.intro > * { min-width: 0; }
+.panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 12px; padding: 18px; display: grid; gap: 12px; }
+.panel ol li, .panel ul li { padding-left: 2px; }
+.loop { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.loop li { margin: 0; background: var(--paper); border-radius: 8px; padding: 10px; display: grid; gap: 2px; font-size: 0.9rem; }
+.loop b { font-family: var(--font-display); font-stretch: 108%; font-size: 0.98rem; }
+.loop .n { font-family: var(--font-mono); font-size: 0.72rem; color: var(--blue); font-weight: 600; }
+pre.tree { margin: 0; font-family: var(--font-mono); font-size: 0.8rem; line-height: 1.55; background: var(--code); border-radius: 8px; padding: 12px 14px; overflow-x: auto; }
+.tips { display: grid; gap: 8px; font-size: 0.94rem; }
+.tip { background: var(--warn-soft); border-radius: 8px; padding: 10px 12px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 36px; margin-top: 8px; }
+.index { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); align-self: start; max-height: calc(100vh - 32px); overflow-y: auto; display: grid; gap: 12px; padding-right: 4px; }
+.index details > summary { cursor: pointer; font-family: var(--font-display); font-weight: 700; font-stretch: 108%; list-style: none; }
+.index details > summary::-webkit-details-marker { display: none; }
+.progress { display: grid; gap: 6px; }
+.bar { height: 8px; background: var(--rule); border-radius: 99px; overflow: hidden; }
+.fill-bar { height: 100%; width: 0; background: var(--ok); transition: width 0.3s; }
+.count { font-family: var(--font-mono); font-size: 0.78rem; color: var(--muted); }
+.index ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 1px; }
+.index li + li { margin-top: 0; }
+.index a { display: grid; grid-template-columns: 24px 1fr; gap: 6px; padding: 5px 8px; border-radius: 6px; text-decoration: none; color: var(--ink); font-size: 0.9rem; line-height: 1.3; }
+.index a:hover { background: var(--blue-soft); }
+.index a .i { font-family: var(--font-mono); font-size: 0.76rem; color: var(--muted); padding-top: 1px; }
+.index a.is-done .i { color: var(--ok); }
+.index a.is-done .t { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--rule); }
+.index .grp { margin-top: 8px; }
+.index .extra a { grid-template-columns: 1fr; color: var(--blue); }
+
+.steps { display: grid; gap: 26px; min-width: 0; }
+.part { display: grid; gap: 6px; padding-top: 18px; border-top: 2px solid var(--ink); }
+.part:first-child { border-top: 0; padding-top: 0; }
+.part .kicker { color: var(--blue); }
+.part p { color: var(--muted); max-width: 68ch; }
+
+.step { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 22px; display: grid; gap: 16px; scroll-margin-top: 16px; min-width: 0; }
+.step.is-done { border-color: var(--ok); }
+.head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: start; }
+.stamp { width: 58px; height: 64px; display: grid; place-items: center; font-family: var(--font-display); font-weight: 800; font-stretch: 112%; font-size: 1.7rem; color: var(--red); background: var(--paper); border: 2px dashed var(--red); border-radius: 4px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 0.82rem; color: var(--muted); margin-bottom: 4px; }
+.obj { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; color: var(--blue); border: 1px solid var(--blue); padding: 0 6px; border-radius: 3px; white-space: nowrap; }
+.learn { color: var(--muted); margin-top: 6px; max-width: 66ch; }
+.done { display: flex; gap: 8px; align-items: center; font-size: 0.9rem; font-weight: 700; cursor: pointer; padding: 6px 12px; border: 1px solid var(--rule); border-radius: 99px; white-space: nowrap; }
+.done input { width: 18px; height: 18px; margin: 0; accent-color: var(--ok); }
+.step.is-done .done { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+
+.plain { border-left: 3px solid var(--red); padding: 2px 0 2px 14px; font-size: 1.02rem; max-width: 68ch; }
+.plain b { font-family: var(--font-display); font-stretch: 108%; }
+.note { background: var(--paper); border-radius: 8px; padding: 12px 14px; font-size: 0.95rem; display: grid; gap: 6px; }
+.note b.lbl { font-family: var(--font-display); font-stretch: 108%; }
+.note ol { display: grid; gap: 2px; }
+
+.pb { border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; min-width: 0; }
+.pb-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; padding: 9px 12px; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.tag { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; color: var(--sheet); }
+.pb.build .tag { background: var(--blue); }
+.pb.check .tag { background: var(--ok); }
+.pb-head .where { font-size: 0.84rem; color: var(--muted); flex: 1 1 auto; }
+.copy { font: inherit; font-size: 0.85rem; font-weight: 700; padding: 5px 12px; border-radius: 6px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); cursor: pointer; }
+.copy:hover { border-color: var(--blue); color: var(--blue); }
+.copy.copied { border-color: var(--ok); color: var(--ok); }
+pre.prompt { margin: 0; padding: 14px; background: var(--code); color: var(--ink); font-family: var(--font-mono); font-size: 0.83rem; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
+mark.fill { background: var(--mark); color: var(--mark-ink); border-radius: 3px; padding: 0 2px; }
+
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.pair > * { min-width: 0; }
+.worked { background: var(--ok-soft); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; font-size: 0.95rem; }
+.worked h4 { color: var(--ok); }
+.wrong { background: var(--warn-soft); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; font-size: 0.95rem; }
+.exam { background: var(--blue-soft); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; font-size: 0.93rem; }
+.exam h4 { color: var(--blue); }
+.exam .ovr { font-weight: 700; }
+
+/* Bottom sections */
+.closing { margin-top: 44px; display: grid; gap: 14px; }
+.tbl { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: var(--font-display); font-stretch: 108%; font-size: 0.86rem; background: var(--paper); }
+tr:last-child td { border-bottom: 0; }
+td.n { font-family: var(--font-mono); white-space: nowrap; }
+.words { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.word { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; font-size: 0.93rem; display: grid; gap: 2px; }
+.word b { font-family: var(--font-display); font-stretch: 108%; }
+
+@media (max-width: 980px) {
+  .layout { grid-template-columns: 1fr; gap: 18px; }
+  .index { position: static; max-height: none; }
+  .index ol { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+  .intro { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .loop { grid-template-columns: 1fr 1fr; }
+  .pair { grid-template-columns: 1fr; }
+  .step { padding: 16px; }
+  .head { grid-template-columns: auto minmax(0, 1fr); }
+  .head .done { grid-column: 1 / -1; justify-self: start; }
+  .stamp { width: 48px; height: 54px; font-size: 1.4rem; }
+}
+@media (prefers-reduced-motion: reduce) { .fill-bar { transition: none; } }
+</style>
+
+<div class="airmail" aria-hidden="true"></div>
+<div class="page">
+  <header class="mast">
+    <p class="kicker">A hands-on Claude Code course · no coding needed</p>
+    <h1>Email Studio Lab</h1>
+    <p class="lede">You will set up an email marketing studio and run it with Claude Code. Claude plans a launch campaign, writes the emails, personalizes them for each group of customers, and sends them, safely, to a practice email server. Along the way you use every Claude Code feature on the CCAR-F exam.</p>
+    <div class="facts">
+      <span class="fact">15 steps</span>
+      <span class="fact">about 30–60 min each</span>
+      <span class="fact">no real emails are sent</span>
+      <span class="fact">no Resend account needed</span>
+    </div>
+  </header>
+
+  <section class="intro" id="start" aria-label="Before you start">
+    <div class="panel">
+      <h2>Before you start</h2>
+      <ol>
+        <li>Install <b>Node.js 22 or newer</b> from nodejs.org. Check with <code>node --version</code>.</li>
+        <li>Install <b>Git</b>. Check with <code>git --version</code>. On Windows, install Git for Windows, because Claude Code uses its Git Bash.</li>
+        <li>Install <b>Claude Code</b>: <code>npm install -g @anthropic-ai/claude-code</code>, then sign in when you first run <code>claude</code>.</li>
+        <li>Make your studio folder and open Claude Code in it:<br><code>mkdir my-email-studio</code> · <code>cd my-email-studio</code> · <code>git init</code> · <code>claude</code></li>
+      </ol>
+      <h4>How every step works</h4>
+      <ol class="loop">
+        <li><span class="n">1 · BUILD</span><b>Paste the build prompt</b><span>In Claude Code, in your studio folder.</span></li>
+        <li><span class="n">2 · FRESH</span><b>Start a new session</b><span>Type <code>/exit</code>, then run <code>claude</code> again.</span></li>
+        <li><span class="n">3 · CHECK</span><b>Paste the check prompt</b><span>A fresh Claude tests your work. It didn't build it, so it's honest.</span></li>
+        <li><span class="n">4 · DONE</span><b>Answer its questions</b><span>Then tick Done on the step.</span></li>
+      </ol>
+    </div>
+    <div class="panel">
+      <h2>Your studio at the end</h2>
+<pre class="tree">my-email-studio/
+├── CLAUDE.md            the studio's rules
+├── brand/voice.md       how the brand sounds
+├── leads/
+│   ├── leads.csv        24 practice customers
+│   └── CLAUDE.md        rules for this folder only
+├── campaigns/steep-club-launch/
+│   ├── plan.md          the campaign plan
+│   ├── emails/          4 launch emails
+│   └── groups/          a version per customer group
+├── .claude/
+│   ├── rules/emails.md  rules for every email file
+│   ├── skills/personalize/
+│   └── hooks/send-guard.mjs
+├── .mcp.json            connection to Resend
+└── scripts/review.mjs   automatic review</pre>
+      <div class="tips">
+        <p class="tip"><b>Claude will ask permission</b> before it writes inside <code>.claude/</code> or to <code>.mcp.json</code>. That's normal. Read what it wants to do, then approve.</p>
+        <p class="tip"><b>No brand of your own?</b> Use the sample: Kettlebird Tea, a made-up tea shop launching a monthly tea box called The Steep Club. The prompts below use it.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <nav class="index" aria-label="Steps">
+      <div class="progress">
+        <div class="bar"><div class="fill-bar" id="fill" style="width: 0%;"></div></div>
+        <span class="count" id="count">0 of 15 done</span>
+      </div>
+      <div class="grp"><h4>Part 1 · Plan and write</h4><ol id="nav-1"><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-1"><span class="i">1</span><span class="t">Look before you build</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-2"><span class="i">2</span><span class="t">Set up your studio</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-3"><span class="i">3</span><span class="t">Your brand voice</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-4"><span class="i">4</span><span class="t">Plan the campaign</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-5"><span class="i">5</span><span class="t">Practice leads</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-6"><span class="i">6</span><span class="t">Email rule and sequence</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-7"><span class="i">7</span><span class="t">Fresh-eyes review</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-8"><span class="i">8</span><span class="t">Your own skill</span></a></li></ol></div>
+      <div class="grp"><h4>Part 2 · Send safely</h4><ol id="nav-2"><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-9"><span class="i">9</span><span class="t">Connect Resend</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-10"><span class="i">10</span><span class="t">The safety guard</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-11"><span class="i">11</span><span class="t">Practice launch</span></a></li></ol></div>
+      <div class="grp"><h4>Part 3 · Work like a team</h4><ol id="nav-3"><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-12"><span class="i">12</span><span class="t">Resume and fork</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-13"><span class="i">13</span><span class="t">Automatic review</span></a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-14"><span class="i">14</span><span class="t">Package your studio kit</span></a></li></ol></div>
+      <div class="grp"><h4>Stretch</h4><ol id="nav-4"><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#step-15"><span class="i">15</span><span class="t">What customers love</span></a></li></ol></div>
+      <div class="grp extra"><ol><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#start">Before you start</a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#exam-map">Exam map</a></li><li><a href="https://8dedbf41-bca5-4fbe-8bd5-0f6e43532cbb.frame.claudeusercontent.com/_f/1792953153-fcf8/?__frame_v=manifest.c934bf4f8d201e44.json#words">Words you'll see</a></li></ol></div>
+    </nav>
+
+    <main class="steps">
+
+      <div class="part">
+        <p class="kicker">Part 1 · Steps 1–8</p>
+        <h2>Plan and write</h2>
+        <p>Set up the studio, give it a brand voice, plan a campaign and write the emails. Nothing gets sent in this part.</p>
+      </div>
+
+      <!-- STEP 1 -->
+      <section class="step" id="step-1" data-part="1" data-title="Look before you build">
+        <div class="head">
+          <div class="stamp">1</div>
+          <div>
+            <div class="meta"><span>Real-world habit</span><span class="obj">2.4</span></div>
+            <h3>Look before you build</h3>
+            <p class="learn">Search for skills other people made, and decide which ones to trust.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-1"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> a skill is like an app for Claude. Before you build one, look in the app store. Download counts can be faked, so also check who made it.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Paste in Claude Code</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">I'm setting up an email marketing studio in this folder. Before I build anything myself, I want to find skills other people have already made.
+
+1. Search the skills directory at skills.sh by running these one at a time:
+   npx skills find email marketing
+   npx skills find email sequence
+   npx skills find campaign plan
+   npx skills find resend
+2. For the most promising results, find out who publishes each one and how many stars its GitHub repository has. Look out for official publishers such as anthropics and resend.
+3. Write notes/skills-i-chose.md in plain English with three short sections:
+   - Use these: the two sources you recommend for writing campaigns and sending email, and why.
+   - Avoid these: two results you would not trust, and why.
+   - How I decided: the three things I should check before installing any skill.
+
+Don't install anything yet.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session: /exit, then claude, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Check my work in notes/skills-i-chose.md. Don't change any files. Test it, don't just read it:
+
+1. For each skill the note recommends, confirm it still exists today: look at its page on skills.sh or its folder in the GitHub repository. Tell me if any has been renamed, merged or removed.
+2. Run one of the searches again (for example npx skills find email marketing) and confirm the install numbers in the note are roughly right.
+3. Is anything recommended from a publisher whose repository has very few GitHub stars?
+
+Give me a short table: Check | OK or Problem | What you found.
+Then ask me two quick questions, one at a time, to see if I understand why install counts alone aren't enough.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>The note picks official or well-known sources, like Anthropic's marketing plugin and Resend's own skills.</li>
+            <li>It warns you off a result with thousands of installs but only a handful of GitHub stars.</li>
+            <li>The check may find a skill that was renamed. When we tried this, a popular "email-sequence" skill had been merged into one called "emails". Ask Claude to fix the note.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p>The exam asks the same question about MCP servers: for a standard need, use an existing community server first, and build your own only for work that is special to your team.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 2 -->
+      <section class="step" id="step-2" data-part="1" data-title="Set up your studio">
+        <div class="head">
+          <div class="stamp">2</div>
+          <div>
+            <div class="meta"><span class="obj">3.1</span></div>
+            <h3>Set up your studio</h3>
+            <p class="learn">Install a plugin for this project only, and write the studio's CLAUDE.md.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-2"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> CLAUDE.md is the studio's notice board. Claude reads it every time it starts work here. A plugin installed for this project is like equipment fixed to this studio's wall: anyone who joins the studio gets it too.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Paste in Claude Code</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Let's set up my email studio in this folder.
+
+1. Install Anthropic's official marketing plugin for this project only, by running these two commands:
+   claude plugin marketplace add anthropics/knowledge-work-plugins --scope project
+   claude plugin install marketing@knowledge-work-plugins --scope project
+2. Create four folders: brand, leads, campaigns and notes.
+3. Write a CLAUDE.md for the studio in plain English. Include: what the studio is for (planning and writing email campaigns for a small business), a one-line description of each folder, and these rules: write in plain English, never send email to real people, and ask me before deleting anything.
+4. Create a .gitignore that ignores .claude/settings.local.json and system files like .DS_Store.
+5. Commit everything with a clear message.
+
+Then tell me what I have to do so the plugin loads.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><ol>
+          <li>Type <code>/exit</code> and run <code>claude</code> again. Plugins load when a session starts.</li>
+          <li>Accept the prompts to trust the folder and the plugin.</li>
+          <li>Type <code>/marketing:</code> and you should see the plugin's commands appear.</li>
+        </ol></div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Check that my studio is set up correctly. Don't change any files. Test it, don't just read it:
+
+1. Is the marketing plugin turned on for this project only? Compare .claude/settings.json with what `claude plugin list` says about its scope.
+2. Can you use the plugin here right now? List the plugin commands you can see whose names include campaign, email or brand.
+3. If a classmate clones this repo, will they get the same plugin? Explain why, using what is actually in the repo.
+4. Is .claude/settings.local.json ignored by git? Prove it with `git check-ignore -v .claude/settings.local.json`.
+
+Give me a short table: Check | OK or Problem | What you saw.
+Then ask me two quick questions, one at a time, about the difference between files the whole team shares and files that are only mine.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li><code>claude plugin list</code> shows <b>marketing</b> with <b>Scope: project</b>.</li>
+            <li>You can see <code>/marketing:campaign-plan</code>, <code>/marketing:email-sequence</code> and <code>/marketing:brand-review</code>.</li>
+            <li><code>git check-ignore</code> names your <code>.gitignore</code> line.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p>Team standards go at project level: CLAUDE.md in the repo, <code>.claude/settings.json</code>. Teammates get them when they clone. Your personal files (<code>~/.claude/CLAUDE.md</code>, <code>settings.local.json</code>) never reach anyone else. If a new teammate isn't getting the instructions, they sit at user level.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 3 -->
+      <section class="step" id="step-3" data-part="1" data-title="Your brand voice">
+        <div class="head">
+          <div class="stamp">3</div>
+          <div>
+            <div class="meta"><span class="obj">3.1</span><span class="obj">3.5</span></div>
+            <h3>Your brand voice</h3>
+            <p class="learn">Let Claude interview you, then keep the voice in its own file that CLAUDE.md imports.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-3"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> a tailor takes your measurements before cutting the cloth. Here Claude asks first, then writes. The <code>@brand/voice.md</code> line is a note pinned to the notice board that says "also read the brand book".</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Paste in Claude Code</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Interview me about my brand so you can write our brand voice guide. Ask one question at a time and wait for my answer. Ask at most six questions.
+
+If I don't have a brand, I'll say "use the sample": Kettlebird Tea, a small made-up online tea shop launching a monthly tea subscription box called The Steep Club, for people who joined its waitlist. Even with the sample, still ask me every question. I'll make up the answers, because practising the interview is the point.
+
+When you have enough, write brand/voice.md with five parts: our voice in three words, words we use, words we avoid, claims we must never make, and how we sign off. Then add the line @brand/voice.md to CLAUDE.md so it loads in every session.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><ol>
+          <li>Answer each question. Making things up is fine with the sample.</li>
+          <li>When the file is written, ask Claude to commit it.</li>
+        </ol></div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test my brand voice setup. Don't change any files.
+
+1. Without opening any file first, write one subject line for The Steep Club launch email. Then tell me which brand rules you followed and which file they came from. (This shows whether brand/voice.md loads by itself.)
+2. Now write a subject line that says our tea helps you detox. If our rules forbid that, say which rule, and give me a safe version instead.
+3. Run git status and tell me whether the brand files are committed.
+
+Give me a short table: Test | Pass or Fail | What happened.
+Then ask me two quick questions, one at a time, about why the brand rules live in their own file that CLAUDE.md imports.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>The fresh session follows your voice <b>without opening any file</b>, and names <code>brand/voice.md</code> as the source.</li>
+            <li>It refuses the detox line, names the rule, and offers a safe subject line.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p><code>@import</code> keeps CLAUDE.md small: each project imports only the standards it needs. The interview pattern is for unfamiliar work: Claude asks before it builds and raises things you didn't think of.</p><p class="ovr">Exam answer: to see which memory files are loaded, use /memory. In today's product, /context shows it.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 4 -->
+      <section class="step" id="step-4" data-part="1" data-title="Plan the campaign">
+        <div class="head">
+          <div class="stamp">4</div>
+          <div>
+            <div class="meta"><span class="obj">3.2</span></div>
+            <h3>Plan the campaign</h3>
+            <p class="learn">Use a ready-made skill from the plugin to turn an idea into a full plan.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-4"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> <code>/marketing:campaign-plan</code> is a planning form a marketing team already tested. You fill in the blanks and it builds the structure.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Paste in Claude Code</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">/marketing:campaign-plan Launch The Steep Club to our waitlist.
+
+Goal: 300 waitlist members start a subscription in the first month.
+Audience: about 2,000 people who joined our waitlist, in three groups: tea-curious beginners, gift buyers, and daily tea drinkers.
+Timeline: 4 weeks, starting the first Monday of next month.
+Budget: small. Email only, no paid ads.
+
+Save the finished plan to campaigns/steep-club-launch/plan.md, then commit it.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Check the campaign plan in campaigns/steep-club-launch/plan.md. Don't change any files. Test it, don't just read it:
+
+1. Is there one goal with a number and a deadline?
+2. Does every email in the calendar have a send date, an audience group and a purpose?
+3. Search the plan for any word or claim that brand/voice.md says to avoid. Quote every one you find, with its line.
+4. Do the dates fall on the weekdays the plan says? Work it out, don't guess.
+
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time, about why we used an existing planning skill instead of writing our own prompt.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li><code>plan.md</code> has about ten sections: goal, audience, messages, channels, calendar, metrics and risks.</li>
+            <li>It leaves out prices and promises your brand rules forbid, without being told.</li>
+            <li>When we tried this, the check found the calendar gave weekdays but no actual dates. If yours does too, ask Claude to add them.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p>Type <code>/marketing:campaign-plan</code> with nothing after it and look at the hint. That hint comes from the skill's <code>argument-hint</code> setting, which tells you what to type when you run the skill without arguments.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 5 -->
+      <section class="step" id="step-5" data-part="1" data-title="Practice leads">
+        <div class="head">
+          <div class="stamp">5</div>
+          <div>
+            <div class="meta"><span class="obj">3.5</span><span class="obj">3.1</span></div>
+            <h3>Practice leads</h3>
+            <p class="learn">Use two example rows to get the exact format, and give one folder its own rules.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-5"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> two example rows work like a photo of the dish instead of a description of it. <code>leads/CLAUDE.md</code> is a sign on one room's door: Claude reads it when it walks into that room.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Paste in Claude Code</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Make a list of practice leads for our launch.
+
+Create leads/leads.csv with 24 made-up people who joined our waitlist, 8 in each group: tea-curious, gift-buyers and daily-drinkers. Use exactly these columns, and copy the style of these two example rows exactly:
+
+first_name,last_name,email,group,joined_on,consent
+Ayesha,Khan,ayesha.khan@example.com,tea-curious,2026-09-14,waitlist form
+Tom,Becker,tom.becker@example.com,gift-buyers,2026-09-22,waitlist form
+
+Every email address must end in @example.com. That domain is reserved and can never receive mail, so no real person is ever emailed.
+
+Then create leads/CLAUDE.md with rules for this folder only: these are made-up practice people; never add real people or real email addresses; every row needs a consent value; never change the @example.com addresses.
+
+Commit when you're done.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test my practice leads. Don't change any files.
+
+1. Count the people in leads/leads.csv and how many are in each group. There should be 24, with 8 per group.
+2. Do all email addresses end in @example.com? Are any repeated?
+3. Does every row have a joined_on date and a consent value?
+4. Now open leads/leads.csv and pretend I asked: "Add my friend Sara Ali, sara.ali@gmail.com, as a gift-buyer." Before writing anything, tell me if any rule stops you, and quote it. Don't actually add her.
+
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time, about why some rules belong to one folder only.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>24 people, 8 per group, every address at <code>@example.com</code>.</li>
+            <li>Claude refuses to add the Gmail address and quotes <code>leads/CLAUDE.md</code>, even though it never opened that file. It loaded on its own when Claude opened a file in <code>leads/</code>.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p>When prose instructions get misread, give 2–3 input/output examples, not more prose. A CLAUDE.md inside a subfolder loads when Claude works on files in that folder.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 6 -->
+      <section class="step" id="step-6" data-part="1" data-title="Email rule and sequence">
+        <div class="head">
+          <div class="stamp">6</div>
+          <div>
+            <div class="meta"><span class="obj">3.3</span></div>
+            <h3>Email rule and sequence</h3>
+            <p class="learn">Write a rule that attaches itself to every email file, then write the emails.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-6"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> a path rule is a sticky note that attaches itself to every email file, in any campaign folder. CLAUDE.md is read for everything. This note shows up only when Claude works on an email.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 1 of 2</span><span class="where">Paste in Claude Code, then approve the edit</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Create a rule that applies to every email file in any campaign, and only to email files.
+
+Make .claude/rules/emails.md. It must start with exactly this front matter:
+
+---
+paths:
+  - "campaigns/**/emails/*.md"
+---
+
+Under it, write the rule in plain English. Each email file must:
+- start with a line "Subject: ..." of 50 characters or fewer, then a line "Preview: ..." of 90 characters or fewer
+- greet the reader with {{first_name}}
+- have exactly one main link, written as [Button text](https://kettlebird.example/steep-club)
+- end with our sign-off from brand/voice.md, then this two-line footer as plain text, not inside a code block:
+  You're getting this because you joined the Kettlebird Tea waitlist.
+  Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
+
+Commit when you're done.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><ol><li>Start a new session (<code>/exit</code>, then <code>claude</code>) so the new rule is picked up.</li></ol></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 2 of 2</span><span class="where">Paste in the new session</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">/marketing:email-sequence Product launch sequence for The Steep Club, sent to everyone on our waitlist.
+
+Use campaigns/steep-club-launch/plan.md for the goal, timing and key messages, and brand/voice.md for our voice. Write 4 emails.
+
+Save each email as its own file in campaigns/steep-club-launch/emails/, named 01-short-name.md, 02-short-name.md, and so on. Then commit.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test the emails in campaigns/steep-club-launch/emails/. Don't change any files. Measure, don't eyeball: count characters and links with a command where you can.
+
+For each email file, check:
+1. The Subject line is 50 characters or fewer, and the Preview line is 90 or fewer. Give the real counts.
+2. It greets the reader with {{first_name}}.
+3. It has exactly one link.
+4. It ends with a sign-off from brand/voice.md and the exact footer from .claude/rules/emails.md, as plain text.
+5. It uses no word or claim that brand/voice.md says to avoid.
+
+Give me one table with a row per email and a column per check (Pass or Fail, with the number or quote when it fails).
+Then ask me two quick questions, one at a time, about why this rule uses a paths pattern instead of living in CLAUDE.md.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>Four email files, each starting with <code>Subject:</code> and <code>Preview:</code>, with real character counts under the limits.</li>
+            <li>One link per email, and the footer as plain text.</li>
+            <li>When we tried this without the rule, the plugin wrote three subject options and a notes section in each file. With the rule, every email followed the studio's format.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p>For conventions that apply to files spread across folders, use <code>.claude/rules/</code> with <code>paths:</code> patterns. A subfolder CLAUDE.md covers one folder only. One big CLAUDE.md with headings relies on Claude guessing. A skill only works when someone runs it. Use <code>/context</code> to see which rules loaded.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 7 -->
+      <section class="step" id="step-7" data-part="1" data-title="Fresh-eyes review">
+        <div class="head">
+          <div class="stamp">7</div>
+          <div>
+            <div class="meta"><span class="obj">3.6</span><span class="obj">3.5</span><span class="obj">2.5</span></div>
+            <h3>Fresh-eyes review</h3>
+            <p class="learn">Review in a new session, fix related problems in one message, then confirm with search.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-7"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> when you proofread your own letter, you see what you meant to write. A new session is a second reader who didn't write it.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 1 of 2</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">/marketing:brand-review campaigns/steep-club-launch/emails/
+
+Review all four emails against brand/voice.md and .claude/rules/emails.md. List every problem by severity (high, medium or low), with the file, the line and a suggested fix. Don't change any files yet.</pre>
+        </div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 2 of 2</span><span class="where">Same session, after you read the review</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Fix all the problems from your review in one message, keeping all four emails consistent with each other. If a fix means changing a rule file too, change it. Leave anything only I can confirm, like what the launch page says, and list it for me. Then commit.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Check that the review fixes worked. Don't change any files.
+
+1. Use Glob to list every email file in every campaign.
+2. Use Grep to search all of them for three backticks in a row, and for every word that brand/voice.md says to avoid. There should be no matches.
+3. Run git show --stat HEAD and tell me which files the last commit changed.
+4. Confirm the footer is plain text in every email.
+
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: why the review happened in a new session, and why all the fixes went in one message.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>The review lists problems by severity. Ours found small but real ones, like a promise to "read every reply" that the team might not keep.</li>
+            <li>After the fixes, Grep finds nothing, and the last commit touched only email files and maybe the rule.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p>The session that wrote something keeps its own reasoning and rarely questions it, so review in a fresh, independent session. Fixes that affect each other go in one detailed message; separate fixes can go one at a time. Glob finds files by name; Grep finds text inside files.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 8 -->
+      <section class="step" id="step-8" data-part="1" data-title="Your own skill">
+        <div class="head">
+          <div class="stamp">8</div>
+          <div>
+            <div class="meta"><span class="obj">3.2</span></div>
+            <h3>Your own skill: personalize</h3>
+            <p class="learn">Build a skill with the three settings the exam asks about, and use it.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-8"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> a skill is a recipe card. Claude always sees the card's title, and reads the whole card only when it cooks that dish. <code>context: fork</code> sends a helper to another kitchen to do the messy work; only the finished dish comes back to you.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 1 of 2</span><span class="where">Paste in Claude Code, then approve the edit</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Create my own skill for this project at .claude/skills/personalize/SKILL.md.
+
+What it does: it takes a campaign folder and writes one version of each email for each lead group in leads/leads.csv (tea-curious, gift-buyers and daily-drinkers). Each version keeps the same structure, subject, link and footer, but changes the opening line and one example so it fits that group. It saves each version to &lt;campaign folder&gt;/groups/&lt;group&gt;/emails/ with the same file name. When it finishes, it replies with a short summary only: how many files it wrote, plus one example opening line per group.
+
+Use exactly this front matter:
+---
+name: personalize
+description: Write a version of each campaign email for every lead group in leads/leads.csv. Use when a campaign's emails are final and you want one copy per group.
+argument-hint: "[campaign folder]"
+context: fork
+allowed-tools: Read, Glob, Grep, Write
+---
+
+If no campaign folder is given, it should stop and list the campaign folders that exist. Commit when you're done.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><ol><li>Start a new session so the skill is picked up.</li></ol></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 2 of 2</span><span class="where">Paste in the new session</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">/personalize campaigns/steep-club-launch</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><ol><li>Ask Claude: <em>"Commit the new files with a clear message."</em></li></ol></div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test my personalize skill and what it made. Don't change any files.
+
+1. Count the email files under campaigns/steep-club-launch/groups/. There should be one per email per group: 4 emails times 3 groups is 12.
+2. Compare the original email 01 with each group's version using diff. Only the opening line and one example should differ. Tell me if anything else changed.
+3. Check that every version still follows .claude/rules/emails.md: subject 50 characters or fewer, preview 90 or fewer, one link, and the footer as plain text. Measure, don't eyeball.
+4. Does any version use a word or claim that brand/voice.md forbids? Quote it if so.
+
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time: what "context: fork" changed about how the skill ran, and what "allowed-tools" did.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>12 new files. Only the opening line and one sentence differ from the original.</li>
+            <li>Your main chat shows only a short summary, not the work itself.</li>
+            <li>The email rule applied to the new files too, because they also sit in an <code>emails/</code> folder.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p><code>context: fork</code> runs the skill in its own context, so long output stays out of your chat. <code>argument-hint</code> tells you what to type when you run it with no arguments. A personal copy goes in <code>~/.claude/skills/</code> under a different name, so it doesn't clash with the team's.</p><p class="ovr">Exam answer: allowed-tools restricts which tools the skill can use. In the product it pre-approves the listed tools, and other tools still ask permission. You may see that happen. On the exam, answer "restricts".</p><p>Not real: a <code>.claude/config.json</code> file with a commands list.</p></div>
+        </div>
+      </section>
+
+      <div class="part">
+        <p class="kicker">Part 2 · Steps 9–11</p>
+        <h2>Send safely</h2>
+        <p>Connect a real email service through MCP, but point it at a practice server on your own computer. Then add a guard that makes sure no email can reach the wrong person.</p>
+      </div>
+
+      <!-- STEP 9 -->
+      <section class="step" id="step-9" data-part="2" data-title="Connect Resend">
+        <div class="head">
+          <div class="stamp">9</div>
+          <div>
+            <div class="meta"><span class="obj">2.4</span></div>
+            <h3>Connect Resend in practice mode</h3>
+            <p class="learn">Connect an email service through MCP, with settings that are safe by default.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-9"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> an MCP server is a phone line from Claude to another service. In practice mode that line goes to a pretend post office on your own computer, so nothing leaves your machine.</p>
+        <div class="note"><b class="lbl">Before you start</b><ol>
+          <li>Open a <b>second terminal</b> window and run: <code>npx emulate@0.12.3 start --service resend</code></li>
+          <li>Wait until it says <b>Ready</b> and shows <code>http://localhost:4000</code>. Leave that window open for steps 9 to 11.</li>
+        </ol></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Paste in Claude Code, then approve the edit</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Connect our studio to Resend, the email service, in practice mode.
+
+Create .mcp.json in the project root with exactly this content:
+
+{
+  "mcpServers": {
+    "resend": {
+      "command": "npx",
+      "args": ["-y", "resend-mcp@2.27.1"],
+      "env": {
+        "RESEND_API_KEY": "${RESEND_API_KEY:-re_practice}",
+        "RESEND_BASE_URL": "${RESEND_BASE_URL:-http://localhost:4000}",
+        "SENDER_EMAIL_ADDRESS": "${SENDER_EMAIL_ADDRESS:-onboarding@resend.dev}"
+      }
+    }
+  }
+}
+
+Then update the rule in CLAUDE.md that says never to send email to real people. Keep that rule, and add that sending through Resend is allowed only to Resend's test addresses (ending in @resend.dev) and to my own email address, and that a guard will enforce this in the next step.
+
+Commit. Then explain in two plain sentences what happens when I set nothing, and what I would set to send for real.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><ol>
+          <li>Start a new session and approve the <b>resend</b> server when Claude Code asks.</li>
+          <li>Type <code>/mcp</code>. You should see resend connected.</li>
+        </ol></div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test my Resend connection. Don't change any files.
+
+1. Use the resend MCP tools to send one email to delivered@resend.dev with the subject "Connection test" and a one-line body. Did it go through? Give me the email id.
+2. Use the resend tools to list sent emails, and confirm that one shows up as delivered.
+3. Search the whole repo, including git history, for anything that looks like a real Resend key: "re_" followed by a long string, other than re_practice. There should be none.
+4. Is .mcp.json committed, so a classmate who clones the repo gets the same connection?
+
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: why the key is written as ${RESEND_API_KEY:-re_practice} instead of the real key, and what happens if I forget to set anything.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>The test email gets an id and shows as delivered.</li>
+            <li>No real key appears anywhere in the repo or its history.</li>
+          </ul></div>
+          <div class="wrong"><h4>If something goes wrong</h4><ul>
+            <li><b>Connection refused:</b> the practice server isn't running. Start it again in your second terminal.</li>
+            <li><b>Pending approval:</b> start <code>claude</code> and approve the resend server.</li>
+          </ul></div>
+        </div>
+        <div class="exam"><h4>Exam note</h4><p>The team's servers go in <code>.mcp.json</code>, which is committed. Your personal or experimental servers go in <code>~/.claude.json</code>. Credentials use <code>${VAR}</code> expansion, so no secret ever lands in the repo. <code>${VAR:-default}</code> means "use my setting if I have one, otherwise this safe value". If Claude keeps picking Grep over an MCP tool, the tool's description is too thin.</p></div>
+      </section>
+
+      <!-- STEP 10 -->
+      <section class="step" id="step-10" data-part="2" data-title="The safety guard">
+        <div class="head">
+          <div class="stamp">10</div>
+          <div>
+            <div class="meta"><span class="obj">1.5</span></div>
+            <h3>The safety guard</h3>
+            <p class="learn">Make a rule Claude cannot break, using a hook.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-10"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> CLAUDE.md asks Claude to behave. A hook is a guard at the post office door who checks every letter before it leaves. Claude can't talk its way past the guard.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Replace <mark class="fill">[your email]</mark> before you press Enter</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Add a safety guard so Claude can never send email to the wrong people, even by mistake. CLAUDE.md asks nicely. This guard makes sure.
+
+1. Write .claude/hooks/send-guard.mjs, a small Node script for a PreToolUse hook. It reads the tool call as JSON from standard input and looks at tool_name and tool_input:
+   - For send-email and send-batch-emails: every address in to, cc and bcc must end in @resend.dev or match my own email, which comes from the MY_EMAIL environment variable. If any address doesn't, print a short reason that names the address and exit with code 2 to block the call.
+   - For send-broadcast, create-automation, send-inbox-draft and send-new-inbox-email: always block, with a short reason, because they can reach whole lists of people.
+   - For anything else: exit 0 to allow it.
+2. Register it in .claude/settings.json as a PreToolUse hook with the matcher mcp__resend__.* and this command:
+   node "$CLAUDE_PROJECT_DIR/.claude/hooks/send-guard.mjs"
+   Keep everything that is already in that file.
+3. Put my own email in .claude/settings.local.json like this: "env": { "MY_EMAIL": "<mark class="fill">[your email]</mark>" }. That file is only mine and is not committed.
+4. Commit the hook and .claude/settings.json.</pre>
+        </div>
+        <div class="note"><b class="lbl">Tip</b><p>Use the same email you would sign up to Resend with. If you ever send for real, Resend's free sandbox can only deliver to that address.</p></div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test the send guard for real. Don't change any files.
+
+1. Use the resend send-email tool to send email 01 from campaigns/steep-club-launch/emails/ to Ayesha, the first person in leads/leads.csv, at her address. This should be blocked. Quote the block message word for word.
+2. Send the same email to delivered@resend.dev. This should go through.
+3. Send it to my own email, the MY_EMAIL value in .claude/settings.local.json. This should go through too.
+4. Run git check-ignore -v .claude/settings.local.json to prove my email address is not committed.
+
+Don't try to get around a block. Give me a short table: Test | Pass or Fail | What happened.
+Then ask me two quick questions, one at a time: what the difference is between the CLAUDE.md rule and this guard, and what exit code 2 means for a hook.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>The send to Ayesha is <b>blocked</b>, with the guard's own message naming her address.</li>
+            <li>The sends to <code>delivered@resend.dev</code> and to your email go through.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p class="ovr">Exam answer: the guide names only PostToolUse, for cleaning up tool results. It describes blocking as "tool call interception" without naming the hook.</p><p>In the product, PreToolUse is what blocks, with exit code 2 or a deny decision, and PostToolUse can't block. On the exam, match the behaviour described.</p></div>
+        </div>
+      </section>
+
+      <!-- STEP 11 -->
+      <section class="step" id="step-11" data-part="2" data-title="Practice launch">
+        <div class="head">
+          <div class="stamp">11</div>
+          <div>
+            <div class="meta"><span>Real-world skill</span></div>
+            <h3>Practice launch</h3>
+            <p class="learn">Send each group its first email, safely, and check that it was delivered.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-11"> Done</label>
+        </div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build</span><span class="where">Paste in Claude Code</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Let's do a practice launch.
+
+For each lead group, send that group's version of email 01 (from campaigns/steep-club-launch/groups/&lt;group&gt;/emails/) to delivered@resend.dev. Start each subject with the group name in square brackets, like [gift-buyers]. Replace {{first_name}} with "there", and leave the other placeholders as they are.
+
+Then list the emails you sent and show me a table: group, subject, status.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Check my practice launch. Don't send anything new and don't change any files.
+
+1. Use the resend tools to list sent emails. Find the three whose subjects start with [tea-curious], [gift-buyers] and [daily-drinkers].
+2. For each one, look up its delivery status. Is it delivered?
+3. Confirm that every email in the list went only to an @resend.dev address or to my own email, the MY_EMAIL value in .claude/settings.local.json. List any that didn't.
+4. Compare each sent subject with the subject line in that group's email 01 file. Do they match, apart from the [group] tag?
+
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: what would change if I switched from practice mode to my real Resend account, and why the guard still matters then.</pre>
+        </div>
+        <div class="worked"><h4>You'll know it worked when</h4><ul>
+          <li>Three emails tagged <code>[tea-curious]</code>, <code>[gift-buyers]</code> and <code>[daily-drinkers]</code>, all delivered, all to test addresses.</li>
+        </ul></div>
+        <details class="note">
+          <summary><b class="lbl">Optional: send one real email to yourself</b></summary>
+          <ol>
+            <li>Sign up for a free account at resend.com with the same email as your <code>MY_EMAIL</code>.</li>
+            <li>In Resend, create an API key. Never paste it into a file or into the chat.</li>
+            <li>Close Claude Code. In your terminal, set the key and the real address for this window only.<br>
+              macOS or Linux: <code>export RESEND_API_KEY=re_your_key</code> and <code>export RESEND_BASE_URL=https://api.resend.com</code><br>
+              Windows PowerShell: <code>$env:RESEND_API_KEY="re_your_key"</code> and <code>$env:RESEND_BASE_URL="https://api.resend.com"</code></li>
+            <li>Run <code>claude</code> in that same window and ask: <em>"Send the tea-curious version of email 01 to my own email, the MY_EMAIL value."</em></li>
+            <li>Check your inbox. Without your own domain, Resend only delivers to the email you signed up with, and the guard blocks everyone else anyway.</li>
+          </ol>
+        </details>
+      </section>
+
+      <div class="part">
+        <p class="kicker">Part 3 · Steps 12–14</p>
+        <h2>Work like a team</h2>
+        <p>Pick work up across days, try two ideas side by side, review automatically, and package your tools for the next client.</p>
+      </div>
+
+      <!-- STEP 12 -->
+      <section class="step" id="step-12" data-part="3" data-title="Resume and fork">
+        <div class="head">
+          <div class="stamp">12</div>
+          <div>
+            <div class="meta"><span class="obj">1.7</span></div>
+            <h3>Resume and fork</h3>
+            <p class="learn">Pick up earlier work by name, and try two ideas from the same starting point.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-12"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> a named session is a bookmark. A fork is a fork in the road: two paths from the same spot. Forks share the files on your computer, but not the conversation.</p>
+        <div class="note"><b class="lbl">Part A · Start a named session:</b> <code>claude -n launch-angles</code></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build A</span><span class="where">Paste, then /exit</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Read campaigns/steep-club-launch/plan.md and each group's version of email 01. In five short bullets, tell me what each lead group cares about most. Don't write any files.</pre>
+        </div>
+        <div class="note"><b class="lbl">Part B · Come back later:</b> <code>claude --resume launch-angles</code></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build B</span><span class="where">Paste, then /exit</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Remind me: what did you say the gift-buyers care about most? One sentence.</pre>
+        </div>
+        <div class="note"><b class="lbl">Part C · First fork, with its own name:</b> <code>claude --resume launch-angles --fork-session -n angle-a</code></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build C</span><span class="where">Paste, then /exit</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Angle A: write three subject lines for email 01 that focus on a calm daily ritual. Save them to notes/angle-a.md.</pre>
+        </div>
+        <div class="note"><b class="lbl">Part D · Second fork, from the same spot:</b> <code>claude --resume launch-angles --fork-session -n angle-b</code></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build D</span><span class="where">Paste, then /exit</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Before you start: do you know anything about an Angle A from our conversation? Answer yes or no first.
+
+Angle B: write three subject lines for email 01 that focus on discovering new teas. Save them to notes/angle-b.md.</pre>
+        </div>
+        <div class="note"><b class="lbl">Part E · Start fresh from a summary.</b> Run <code>claude --resume launch-angles</code> and ask: <em>"Read notes/angle-a.md and notes/angle-b.md. Then write notes/handoff.md in 10 lines or fewer: what each group cares about, both angles, and which one you'd pick and why."</em> Then start a brand-new session with <code>claude</code> and ask: <em>"Read notes/handoff.md and continue from it: write the final subject line for email 01."</em></div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Check my session experiment. Don't change any files.
+
+1. Do notes/angle-a.md and notes/angle-b.md each have three subject lines of 50 characters or fewer? Count them.
+2. Does either file use the other angle's idea? They were written in separate forks, so they shouldn't.
+3. Is notes/handoff.md 10 lines or fewer, and does everything it says match the files it describes?
+
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: when I should resume a session and when I should start fresh with a summary, and what --fork-session gave me that resuming didn't.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>The resumed session remembers what it said about gift-buyers.</li>
+            <li>Fork B answers "no" about Angle A's conversation. It may notice the <code>angle-a.md</code> file, because forks share files.</li>
+          </ul></div>
+          <div class="wrong"><h4>If something goes wrong</h4><p><b>"matches 2 sessions":</b> you forked without <code>-n</code>, so the fork kept the original name. Use one of the session ids the error prints, and name forks from now on.</p></div>
+        </div>
+        <div class="exam"><h4>Exam note</h4><p>To continue a specific earlier investigation, use <code>--resume &lt;session-name&gt;</code>. To compare two approaches from one shared starting point, use <code>fork_session</code>; on the command line that's <code>--fork-session</code>. If the old tool results are stale, start fresh with a structured summary. If files changed since then, name the changed files so Claude re-checks only those.</p></div>
+      </section>
+
+      <!-- STEP 13 -->
+      <section class="step" id="step-13" data-part="3" data-title="Automatic review">
+        <div class="head">
+          <div class="stamp">13</div>
+          <div>
+            <div class="meta"><span class="obj">3.6</span></div>
+            <h3>Automatic review</h3>
+            <p class="learn">Run Claude without chatting, and get results a program can read.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-13"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> instead of chatting, you hand Claude a job sheet and it hands back a filled-in form. The form's shape, called a schema, never changes, so a program can read it.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 1 of 2</span><span class="where">Paste in Claude Code</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Make a review that runs without anyone typing, so it can later run on every pull request.
+
+1. Create review/findings.schema.json: a JSON Schema for an object with a "findings" array. Each finding has file, line (a number), severity ("high", "medium" or "low"), problem and fix. All five are required.
+2. Create scripts/review.mjs, a small Node script that takes a campaign folder and runs Claude Code headless, like this:
+   claude -p "Review every email in &lt;folder&gt; against brand/voice.md and .claude/rules/emails.md. Report only real problems." --output-format json --json-schema "&lt;the schema file's text&gt;" --allowedTools "Read,Glob,Grep"
+   The output may be one JSON object, or a list whose last item is the result, so handle both. Take structured_output, save it to review/findings.json, print a one-line summary, and exit with code 1 if any finding is high severity.
+3. To prove it catches problems, write a deliberately bad email at campaigns/test-bad/emails/01-bad.md. It should break our rules with a detox claim, a "last chance" line and two links. Then run: node scripts/review.mjs campaigns/test-bad
+4. Run it on campaigns/steep-club-launch too, then commit everything.
+
+Tell me what each run found and what exit code it gave.</pre>
+        </div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 2 of 2</span><span class="where">Same session</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Improve scripts/review.mjs so a second review doesn't repeat itself.
+
+If review/findings.json already exists for the same folder, include those earlier findings in the prompt and add: "These are findings from the last review. Report only problems that are new or still not fixed. Don't repeat ones that have been fixed." To make that work, save the folder name inside review/findings.json too.
+
+Then test it:
+1. Run node scripts/review.mjs campaigns/test-bad and note the findings.
+2. Fix only the detox claim in campaigns/test-bad/emails/01-bad.md (change it to something allowed).
+3. Run the review again on campaigns/test-bad.
+Tell me: did the detox finding disappear, and did anything get reported twice? Commit when done.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test my automatic review. The script rewrites review/findings.json; don't change any other file.
+
+1. Run node scripts/review.mjs campaigns/test-bad. Did it exit with code 1? Does every finding in review/findings.json have all five fields from review/findings.schema.json, with severity high, medium or low?
+2. Did it catch the second link? Quote that finding.
+3. Run node scripts/review.mjs campaigns/steep-club-launch. Did it exit with code 0?
+4. Read scripts/review.mjs. Does it handle both output shapes (one object, or a list), and what does it do if claude fails?
+
+Give me a short table: Test | Pass or Fail | What you saw.
+Then ask me two quick questions, one at a time: why a separate headless run does the review instead of the session that wrote the emails, and why we ask for JSON that matches a schema instead of plain text.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>The bad email gives <b>exit code 1</b> with findings like the detox claim and the second link. Your real campaign gives <b>exit code 0</b>.</li>
+            <li>After you fix one problem, the next review drops it and repeats nothing.</li>
+            <li>Reviews vary a little from run to run. That's why the script only fails on high severity.</li>
+          </ul></div>
+          <div class="note"><b class="lbl">Optional: every pull request</b><p>If your studio is on GitHub, ask Claude to add a GitHub Actions workflow that runs <code>node scripts/review.mjs</code> on pull requests. It needs your <code>ANTHROPIC_API_KEY</code> saved as a repository secret.</p></div>
+        </div>
+        <div class="exam"><h4>Exam note</h4><p><code>-p</code> runs Claude without waiting for input, which fixes a CI job that hangs. <code>--output-format json</code> with <code>--json-schema</code> gives results a program can read. CLAUDE.md holds the review rules for CI runs. On a re-review, include the earlier findings and ask for only new or still-unfixed problems.</p><p>Not real: <code>CLAUDE_HEADLESS=true</code> and <code>--batch</code>. In the product, <code>--json-schema</code> takes the schema's text, not a file name.</p></div>
+      </section>
+
+      <!-- STEP 14 -->
+      <section class="step" id="step-14" data-part="3" data-title="Package your studio kit">
+        <div class="head">
+          <div class="stamp">14</div>
+          <div>
+            <div class="meta"><span class="obj">3.4</span><span>Real-world skill</span></div>
+            <h3>Package your studio kit</h3>
+            <p class="learn">Plan first, turn the reusable parts into a plugin, and use it for a second client.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-14"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> a plugin is a toolbox you carry from client to client. Each client's brand book stays in that client's own office.</p>
+        <div class="note"><b class="lbl">Before you start</b><p>Press <code>Shift+Tab</code> until the bottom of the screen says <b>plan mode</b>. Claude will read and plan, but write nothing until you accept.</p></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 1 of 3</span><span class="where">Paste in plan mode</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Plan this first. Don't build anything yet.
+
+I want to package the reusable parts of this studio as a plugin, so I can use them for my next client. Plan a new folder next to this one, called studio-kit, with:
+- .claude-plugin/plugin.json (name studio-kit, version 0.1.0, a one-line description) and .claude-plugin/marketplace.json listing the plugin with source "./"
+- skills/personalize/SKILL.md, copied from our skill, with anything Kettlebird-specific made general
+- hooks/hooks.json, registering our send guard as a PreToolUse hook on mcp__resend__.*, using ${CLAUDE_PLUGIN_ROOT} instead of $CLAUDE_PROJECT_DIR, plus hooks/send-guard.mjs
+- agents/email-reviewer.md: a subagent that reviews email files against the project's brand voice and email rules, using only Read, Glob and Grep
+- review/findings.schema.json and scripts/review.mjs
+- README.md: what's inside and how to install it
+
+Brand voice, leads and campaigns stay in each client's own repo. The README should say why.
+
+Tell me which files you'll create, what you'll change from the originals, and anything that won't work outside this studio.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><p>Read the plan. Find one thing it says won't travel to a new client. Then accept the plan, or paste:</p></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 2 of 3</span><span class="where">After you read the plan</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">The plan looks good. Build it. When it's built, run claude plugin validate on studio-kit and fix anything it reports.</pre>
+        </div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 3 of 3</span><span class="where">Same session</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Set up a second, made-up client so I can test studio-kit somewhere new. Create a folder next to this one called client-two, for a small bakery called Rise &amp; Crumb, with:
+- brand/voice.md: a short voice guide (warm and cheerful, no health claims, sign off with "Fresh from the oven,")
+- CLAUDE.md: one paragraph about the studio, plus the line @brand/voice.md
+- leads/leads.csv: 6 made-up people in two groups, weekend-bakers and coffee-lovers, all at @example.com, with the same columns as our leads file
+- leads/CLAUDE.md: our leads folder rules, plus a "Groups" section with one line describing each group
+- .claude/rules/emails.md and .mcp.json, copied from this studio, but change the email rule's footer and link to Rise &amp; Crumb's (use https://riseandcrumb.example/spring)
+- campaigns/spring-bake/emails/01-hello.md: one short email that follows the email rules
+Then run git init in client-two and commit everything there. Don't install studio-kit; I'll load it myself.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><ol>
+          <li><code>/exit</code>, then <code>cd ../client-two</code></li>
+          <li>Start Claude Code with your kit loaded: <code>claude --plugin-dir ../studio-kit</code></li>
+          <li>Approve the resend server when asked. Keep the practice server running.</li>
+        </ol></div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">Inside client-two, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Test the studio-kit plugin in this client. Only the personalize skill may write files.
+
+1. Is the studio-kit plugin loaded? List the studio-kit skills and agents you can see.
+2. Use the studio-kit personalize skill on campaigns/spring-bake. Check that it wrote one version of the email for each group in leads/leads.csv.
+3. Use the resend send-email tool to send campaigns/spring-bake/emails/01-hello.md to the first person in leads/leads.csv. The kit's guard should block it. Quote the block message word for word, and don't try to get around it.
+4. Search the ../studio-kit folder for the word Kettlebird. There should be no matches.
+
+Give me a short table: Test | Pass or Fail | What happened.
+Then ask me two quick questions, one at a time: what belongs in the plugin versus in each client's own repo, and why the guard is a PreToolUse hook instead of a PostToolUse one.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li><code>claude plugin validate</code> says <b>Validation passed</b>. A missing-icon warning is fine.</li>
+            <li>In client-two you see <code>studio-kit:personalize</code> and <code>studio-kit:email-reviewer</code>. Personalize uses the bakery's own groups.</li>
+            <li>The kit's guard blocks a send to a bakery lead.</li>
+          </ul></div>
+          <div class="wrong"><h4>If something goes wrong</h4><p><b>"Kettlebird" shows up in client-two:</b> a rule was copied without being adapted. Rules belong to each client, so ask Claude to update the footer and link for Rise &amp; Crumb.</p></div>
+        </div>
+        <div class="exam"><h4>Exam note</h4><p>Use plan mode when a task is large, has several valid approaches, involves design decisions or touches many files. If the question already says the task is complex, plan from the start; "start direct and switch if it gets complex" is the trap answer. Plugins themselves aren't on the exam, and CLAUDE.md and rules always stay in the repo.</p></div>
+      </section>
+
+      <div class="part">
+        <p class="kicker">Stretch · Step 15</p>
+        <h2>For fast finishers</h2>
+        <p>A bigger pile of text, and the habits that keep Claude accurate when its memory gets full.</p>
+      </div>
+
+      <!-- STEP 15 -->
+      <section class="step" id="step-15" data-part="4" data-title="What customers love">
+        <div class="head">
+          <div class="stamp">15</div>
+          <div>
+            <div class="meta"><span class="obj">5.4</span></div>
+            <h3>What customers love</h3>
+            <p class="learn">Keep track of findings across many files, even after Claude's memory is squeezed.</p>
+          </div>
+          <label class="done"><input type="checkbox" id="done-15"> Done</label>
+        </div>
+        <p class="plain"><b>In plain words:</b> when Claude's memory gets squeezed, a notebook still has everything. So write in the notebook as you go, not at the end.</p>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 1 of 3</span><span class="where">Paste in Claude Code (in the Kettlebird studio)</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Create practice data: notes/reviews/ with 120 short made-up customer reviews of Kettlebird's earlier tea sampler box, in 6 files of 20 reviews each (reviews-1.md to reviews-6.md). Make them varied and realistic: name specific teas, mix praise with complaints (packaging, slow shipping, too little of a favourite tea, confusing brewing instructions), and give each review a star rating. Don't summarise them.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><p>Start a named session: <code>claude -n review-dig</code></p></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 2 of 3</span><span class="where">Paste in the named session</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Find the top 5 things customers love and the top 3 complaints across all the reviews in notes/reviews/.
+
+Use a subagent to read the review files, so the raw reviews don't fill up this conversation. Tell the subagent to keep a scratchpad at notes/scratchpad.md and to add to it after each file, one line per finding: the file, the finding, how many reviews mention it, and one short quote. At the end, give me the top 5 and top 3 with how often each came up.</pre>
+        </div>
+        <div class="note"><b class="lbl">Then</b><p>Type <code>/compact</code>. This squeezes the conversation into a short summary.</p></div>
+        <div class="pb build">
+          <div class="pb-head"><span class="tag">Build 3 of 3</span><span class="where">Same session, after /compact</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Which review file had the most complaints about damaged or wet packaging? Quote one. Answer from memory first. Then check notes/scratchpad.md and the files, and tell me whether your memory was right.</pre>
+        </div>
+        <div class="pb check">
+          <div class="pb-head"><span class="tag">Check</span><span class="where">New session, then paste</span><button class="copy" type="button">Copy</button></div>
+<pre class="prompt">Check my scratchpad. Don't change any files.
+
+1. Does notes/scratchpad.md have lines for every file in notes/reviews/?
+2. Pick three lines and check each one against the review file it names: is the quote real, and is the count right?
+
+Give me a short table: Test | Pass or Fail | What you found.
+Then ask me two quick questions, one at a time: why we write to a scratchpad as we go, and what /compact does to Claude's memory.</pre>
+        </div>
+        <div class="pair">
+          <div class="worked"><h4>You'll know it worked when</h4><ul>
+            <li>Your main session only sends work to a subagent. The raw reviews never fill your chat.</li>
+            <li>After <code>/compact</code>, memory gets details wrong or can't answer, and the scratchpad can.</li>
+            <li>When we tried this with a thin scratchpad (one line per file), it couldn't answer either. Write one line per finding.</li>
+          </ul></div>
+          <div class="exam"><h4>Exam note</h4><p>The warning sign is answers that stop matching earlier findings, or that talk about "typical patterns" instead of the specific things found. The fixes are scratchpad files, subagents, summaries between phases, saved state files, and <code>/compact</code>. A bigger context window is never the answer.</p></div>
+        </div>
+      </section>
+
+      <section class="closing" id="exam-map">
+        <h2>Exam map</h2>
+        <p style="color:var(--muted);max-width:68ch">Where each CCAR-F Claude Code objective is practised in this course.</p>
+        <div class="tbl">
+          <table>
+            <thead><tr><th>Objective</th><th>What it covers</th><th>Steps</th></tr></thead>
+            <tbody>
+              <tr><td class="n">3.1</td><td>CLAUDE.md levels, @import, folder CLAUDE.md, /memory</td><td>2, 3, 5</td></tr>
+              <tr><td class="n">3.2</td><td>Commands and skills: argument-hint, context: fork, allowed-tools</td><td>4, 8</td></tr>
+              <tr><td class="n">3.3</td><td>Rules with paths: patterns</td><td>6</td></tr>
+              <tr><td class="n">3.4</td><td>Plan mode, sending work to subagents</td><td>14, 15</td></tr>
+              <tr><td class="n">3.5</td><td>Interview first, input/output examples, fixes in one message</td><td>3, 5, 7</td></tr>
+              <tr><td class="n">3.6</td><td>Fresh-session review, -p, JSON schema, re-review</td><td>7, 13</td></tr>
+              <tr><td class="n">1.7</td><td>Resume by name, fork, fresh start with a summary</td><td>12</td></tr>
+              <tr><td class="n">2.4</td><td>.mcp.json, ${VAR} credentials, use what exists first</td><td>1, 9</td></tr>
+              <tr><td class="n">2.5</td><td>Glob and Grep</td><td>7</td></tr>
+              <tr><td class="n">1.5</td><td>Hooks: the exam names PostToolUse; PreToolUse is what blocks</td><td>10, 14</td></tr>
+              <tr><td class="n">5.4</td><td>Big context: scratchpad, subagents, /compact</td><td>15</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color:var(--muted);font-size:0.92rem">Not practised here: MCP resources (catalogs of data), Edit's fallback when its anchor text isn't unique (Read, then Write), and tracing code through a wrapper module.</p>
+      </section>
+
+      <section class="closing" id="words">
+        <h2>Words you'll see</h2>
+        <div class="words">
+          <div class="word"><b>Session</b><span>One conversation with Claude Code. <code>/exit</code> ends it; running <code>claude</code> starts a new one.</span></div>
+          <div class="word"><b>Commit</b><span>A saved snapshot of your files in git. You can always go back to it.</span></div>
+          <div class="word"><b>Plugin</b><span>A package of skills, commands, hooks and connections that you install in one go.</span></div>
+          <div class="word"><b>Skill</b><span>Saved instructions Claude follows when you call it with <code>/name</code>, or when the task fits.</span></div>
+          <div class="word"><b>MCP server</b><span>A connection that gives Claude tools from another service, like Resend.</span></div>
+          <div class="word"><b>Hook</b><span>A small script Claude Code runs at a set moment, like just before a tool runs. It can block the action.</span></div>
+          <div class="word"><b>Practice mode</b><span>Resend's tools connected to a pretend email server on your own computer.</span></div>
+          <div class="word"><b>Fresh session</b><span>A new conversation that doesn't remember the old one, which makes it a fair checker.</span></div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<script>
+(function () {
+  var KEY = "email-studio-lab-v1";
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { state = {}; }
+  state.done = state.done || {};
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+  // Copy buttons
+  document.querySelectorAll(".copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var pre = btn.closest(".pb").querySelector("pre.prompt");
+      var text = pre.textContent;
+      function flash(label) {
+        btn.textContent = label; btn.classList.add("copied");
+        setTimeout(function () { btn.textContent = "Copy"; btn.classList.remove("copied"); }, 1600);
+      }
+      function fallback() {
+        var r = document.createRange(); r.selectNodeContents(pre);
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        flash("Selected: press Ctrl+C");
+      }
+      try { navigator.clipboard.writeText(text).then(function () { flash("Copied"); }, fallback); }
+      catch (e) { fallback(); }
+    });
+  });
+
+  // Step index and progress
+  var steps = Array.prototype.slice.call(document.querySelectorAll("section.step"));
+  var links = {};
+  steps.forEach(function (sec) {
+    var num = sec.id.replace("step-", "");
+    var li = document.createElement("li");
+    var a = document.createElement("a");
+    a.href = "#" + sec.id;
+    var i = document.createElement("span"); i.className = "i"; i.textContent = num;
+    var t = document.createElement("span"); t.className = "t"; t.textContent = sec.dataset.title;
+    a.appendChild(i); a.appendChild(t); li.appendChild(a);
+    document.getElementById("nav-" + sec.dataset.part).appendChild(li);
+    links[num] = a;
+  });
+  function paint() {
+    var count = 0;
+    steps.forEach(function (sec) {
+      var num = sec.id.replace("step-", "");
+      var on = !!state.done[num];
+      if (on) count++;
+      sec.classList.toggle("is-done", on);
+      links[num].classList.toggle("is-done", on);
+      document.getElementById("done-" + num).checked = on;
+    });
+    document.getElementById("fill").style.width = (count / steps.length * 100) + "%";
+    document.getElementById("count").textContent = count + " of " + steps.length + " done";
+  }
+  steps.forEach(function (sec) {
+    var num = sec.id.replace("step-", "");
+    document.getElementById("done-" + num).addEventListener("change", function (e) {
+      state.done[num] = e.target.checked; save(); paint();
+    });
+  });
+  paint();
+  if (location.hash) {
+    var target = document.getElementById(location.hash.slice(1));
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+
+</body></html>
