@@ -3,7 +3,7 @@ Preview: What's included, how to pay and what happens after you order.
 
 Hi {{first_name}},
 
-Before you order, you may have a few questions. Here are simple answers to the main ones.
+Before you order, you may have a few questions. Here are simple answers to some of the main ones.
 
 **How do I pay?**
 By bank transfer. After you order, we send you the amount, our bank details and a payment reference.
@@ -13,10 +13,10 @@ Once we confirm your payment, our team contacts you and guides you through insta
 
 {{#schools}}
 **What does the price include?**
-Installation only. The price doesn't include ongoing support or updates. The Certificate Generator is PKR 12,000 one-time and the Marks Sheet / Transcript Generator is PKR 6,000 one-time.
+The app and its installation. Ongoing support and updates aren't included. The School Certificate Generator is PKR 12,000 one-time and the School Marks Sheet / Transcript Generator is PKR 6,000 one-time.
 
 **Will it fit our format?**
-The demo videos are the best place to check. If you're still not sure, reply and tell me what you need.
+Watch the demos to see how it works, then reply with a description of your format and I'll tell you if it fits.
 
 **How is student information handled?**
 Reply and I'll answer this personally. Please don't include any student details in your email.
@@ -24,10 +24,10 @@ Reply and I'll answer this personally. Please don't include any student details 
 
 {{#restaurants}}
 **What does the price include?**
-Installation only. The price doesn't include ongoing support or updates. The Restaurant Order Booking App is PKR 20,000 one-time.
+The app and its installation. Ongoing support and updates aren't included. The Restaurant Order Booking App is PKR 20,000 one-time.
 
 **Will installation get in the way of service?**
-Our team guides you through installation. If you have particular hours to avoid, reply and tell me about them.
+Tell me your busiest hours and I'll tell you how installation can work around them.
 {{/restaurants}}
 
 {{#clinics}}
@@ -41,11 +41,11 @@ Reply and I'll answer both personally.
 Reply and I'll answer this personally too. Please don't include any patient details in your email.
 {{/clinics}}
 
-When you're ready, the demo and order form are in one place.
+Your repeated tasks can be automated, and getting started is simple. When you're ready to save time, the demo and order form are in one place.
 
 [See the demo and order](https://example.com/ai-automation-solutions)
 
-Have a question that isn't here? Just reply. I read every reply and I'm glad to help you decide.
+Have a question that isn't here? Just reply. I'm glad to help you decide.
 
 Happy to assist,
 Anees Ahmed Shah

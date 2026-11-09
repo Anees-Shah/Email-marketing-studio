@@ -3,27 +3,27 @@ Preview: Watch the demo made for your kind of organization, then decide if it fi
 
 Hi {{first_name}},
 
-The best way to know if an app will work for you is to see it working. That's why we made a demo video for every app.
+A simple way to know if an app will work for you is to see it working. That's why we made a demo video for every app.
 
 {{#schools}}
-We have a demo for each of our school apps, the Certificate Generator and the Marks Sheet / Transcript Generator. As you watch, compare them with the formats your school uses today.
+We have a demo for each of our school apps, the School Certificate Generator and the School Marks Sheet / Transcript Generator. As you watch, compare them with the formats your school uses today.
 
-The prices are simple: PKR 12,000 one-time for the Certificate Generator and PKR 6,000 one-time for the Marks Sheet / Transcript Generator.
+The prices are clear: PKR 12,000 one-time for the School Certificate Generator and PKR 6,000 one-time for the School Marks Sheet / Transcript Generator.
 {{/schools}}
 
 {{#restaurants}}
 As you watch the demo of our Restaurant Order Booking App, picture your busiest shift and how your team takes orders today.
 
-The price is simple: PKR 20,000 one-time.
+The price is clear: PKR 20,000 one-time.
 {{/restaurants}}
 
 {{#clinics}}
 As you watch the demo of our Clinic Online Patient Booking System, think about how patients book with you today and how much of that work lands on your front desk.
 
-The price is simple: $80 initial cost + $50 per month.
+The price is clear: $80 initial cost + $50 per month.
 {{/clinics}}
 
-If you can see it saving your team time, you can order from the same page.
+Your repeated tasks can be automated, and that can save your team time. Once you've watched, you can order from the same page.
 
 [Watch the demo](https://example.com/ai-automation-solutions)
 
