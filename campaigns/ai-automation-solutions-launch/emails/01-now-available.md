@@ -1,5 +1,5 @@
 Subject: What we made for your team is ready
-Preview: See what it does, what it costs and how simple it is to get started.
+Preview: See what's made for you, the price and how simple it is to get started.
 
 Hi {{first_name}},
 
@@ -26,7 +26,7 @@ Answering booking calls and keeping track of appointments uses up time your fron
 - **Clinic Online Patient Booking System:** $80 initial cost + $50 per month
 {{/clinics}}
 
-Your repeated tasks can be automated, and getting started is simple. You can watch the demo and see the price on one page.
+Your repeated tasks can be automated, and getting started is simple. Each app's demo video and price are on one page.
 
 [See what's made for you](https://example.com/ai-automation-solutions)
 

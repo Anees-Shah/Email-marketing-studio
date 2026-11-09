@@ -10,18 +10,18 @@ Whether you choose the School Certificate Generator (PKR 12,000 one-time), the S
 {{/schools}}
 
 {{#restaurants}}
-The Restaurant Order Booking App costs PKR 20,000 one-time.
+The Restaurant Order Booking App is PKR 20,000 one-time.
 {{/restaurants}}
 
 {{#clinics}}
-The Clinic Online Patient Booking System has an $80 initial cost and costs $50 per month.
+The Clinic Online Patient Booking System is $80 initial cost + $50 per month.
 {{/clinics}}
 
 **Step 1: Place your order.** Fill in the order form on our order page.
 
 **Step 2: Pay by bank transfer.** We send you the amount, our bank details and a payment reference, then we confirm your payment.
 
-**Step 3: Install it with our help.** Our team contacts you and guides you through installation, so you can start to save time.
+**Step 3: Install with our help.** Our team contacts you and guides you through installation, so you can start to save time.
 
 [Place your order](https://example.com/ai-automation-solutions)
 

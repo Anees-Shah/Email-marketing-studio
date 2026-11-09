@@ -13,10 +13,10 @@ Once we confirm your payment, our team contacts you and guides you through insta
 
 {{#schools}}
 **What does the price include?**
-The app and its installation. Ongoing support and updates aren't included. The School Certificate Generator is PKR 12,000 one-time and the School Marks Sheet / Transcript Generator is PKR 6,000 one-time.
+Each app and its installation. Ongoing support and updates aren't included. The School Certificate Generator is PKR 12,000 one-time and the School Marks Sheet / Transcript Generator is PKR 6,000 one-time.
 
-**Will it fit our format?**
-Watch the demos to see how it works, then reply with a description of your format and I'll tell you if it fits.
+**Will the apps fit our format?**
+Watch the demos to see how the apps work, then reply with a description of your format and I'll tell you if they fit.
 
 **How is student information handled?**
 Reply and I'll answer this personally. Please don't include any student details in your email.
@@ -27,12 +27,12 @@ Reply and I'll answer this personally. Please don't include any student details 
 The app and its installation. Ongoing support and updates aren't included. The Restaurant Order Booking App is PKR 20,000 one-time.
 
 **Will installation get in the way of service?**
-Tell me your busiest hours and I'll tell you how installation can work around them.
+Reply with your busiest hours and I'll talk it through with you before you order.
 {{/restaurants}}
 
 {{#clinics}}
 **What does it cost?**
-$80 initial cost + $50 per month.
+The Clinic Online Patient Booking System is $80 initial cost + $50 per month, and our team guides you through installation.
 
 **What does the monthly cost cover, and how do I cancel?**
 Reply and I'll answer both personally.
@@ -41,9 +41,9 @@ Reply and I'll answer both personally.
 Reply and I'll answer this personally too. Please don't include any patient details in your email.
 {{/clinics}}
 
-Your repeated tasks can be automated, and getting started is simple. When you're ready to save time, the demo and order form are in one place.
+Your repeated tasks can be automated, and getting started is simple. When you're ready to save time, each app's demo video and the order form are on one page.
 
-[See the demo and order](https://example.com/ai-automation-solutions)
+[See it working and order](https://example.com/ai-automation-solutions)
 
 Have a question that isn't here? Just reply. I'm glad to help you decide.
 

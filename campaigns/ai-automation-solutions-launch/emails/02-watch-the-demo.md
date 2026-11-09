@@ -1,5 +1,5 @@
 Subject: See it working before you decide
-Preview: Watch the demo made for your kind of organization, then decide if it fits.
+Preview: Watch what we made for your kind of organization, then decide if it fits.
 
 Hi {{first_name}},
 
@@ -25,7 +25,7 @@ The price is clear: $80 initial cost + $50 per month.
 
 Your repeated tasks can be automated, and that can save your team time. Once you've watched, you can order from the same page.
 
-[Watch the demo](https://example.com/ai-automation-solutions)
+[See it working](https://example.com/ai-automation-solutions)
 
 If you'd like to know something the video doesn't show, just reply to this email.
 
