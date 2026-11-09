@@ -3,11 +3,17 @@
 // If the guard can't tell that a call is safe, it blocks it.
 
 const CHECKED_TOOLS = new Set(['send-email', 'send-batch-emails']);
-const BLOCKED_TOOLS = new Set([
-  'send-broadcast',
-  'create-automation',
-  'send-inbox-draft',
-  'send-new-inbox-email',
+const LISTS = 'can reach whole lists of people';
+const BLOCKED_TOOLS = new Map([
+  ['send-broadcast', LISTS],
+  ['create-automation', LISTS],
+  ['send-inbox-draft', LISTS],
+  ['send-new-inbox-email', LISTS],
+  ['reply-to-inbox-thread-email', 'sends a real reply to people outside this studio'],
+  ['forward-inbox-thread-email', 'sends a real email to people outside this studio'],
+  ['update-automation', 'can switch on an automation that emails people'],
+  ['send-event', 'can start an automation that emails people'],
+  ['update-inbox-agent', 'changes what an AI agent may do with real inbox emails'],
 ]);
 const RECIPIENT_FIELDS = ['to', 'cc', 'bcc'];
 const TEST_ADDRESS = /^[^@\s,;<>]+@resend\.dev$/;
@@ -45,7 +51,7 @@ const toolName = String(call?.tool_name ?? '').split('__').pop();
 const toolInput = call?.tool_input ?? {};
 
 if (BLOCKED_TOOLS.has(toolName)) {
-  block(`Blocked: ${toolName} can reach whole lists of people.`);
+  block(`Blocked: ${toolName} ${BLOCKED_TOOLS.get(toolName)}.`);
 }
 
 if (!CHECKED_TOOLS.has(toolName)) {
